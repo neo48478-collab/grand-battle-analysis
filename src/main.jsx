@@ -352,7 +352,7 @@ function App() {
               {classGuilds.map((guild) => <button key={guild.id} className={`guild-card ${selectedGuild?.id === guild.id ? 'selected' : ''}`} onClick={() => { setSelectedGuildId(guild.id); setMemberQuery('') }}>
                 <div className="guild-rank">{String(guild.rank).padStart(2, '0')}</div>
                 <div className="guild-emblem"><Icon name="shield" size={23} /></div>
-                <div className="guild-copy"><strong>{guild.name}</strong><span>勝利 {guild.wins}回 · 戦闘力 {formatNumber(guild.power)}</span></div>
+                <div className="guild-copy"><strong>{guild.name}</strong><span>ギルド戦力 {formatNumber(guild.power)}</span></div>
                 <div className="guild-members"><Icon name="users" size={16} /><span>{guild.members.length}</span></div><Icon name="arrow" size={20} />
               </button>)}
             </div>

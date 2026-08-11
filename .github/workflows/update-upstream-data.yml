@@ -27,14 +27,12 @@ jobs:
 
       - name: Collect authorized upstream data
         env:
+          MM_UPSTREAM_API_BASE: https://api.mentemori.icu
+          MM_LEGEND_LEAGUE_CSV_URL: https://docs.google.com/spreadsheets/d/15bxBeoWfO4R1b1u5OlohpwCsZLmWEUOaXwrsT9h0eYg/export?format=csv&gid=0
+          MM_REGION: jp
           MM_AUTHORIZED_UPSTREAM_URL: ${{ secrets.MM_AUTHORIZED_UPSTREAM_URL }}
           MM_UPSTREAM_BEARER_TOKEN: ${{ secrets.MM_UPSTREAM_BEARER_TOKEN }}
-        run: |
-          if [ -z "$MM_AUTHORIZED_UPSTREAM_URL" ]; then
-            echo "MM_AUTHORIZED_UPSTREAM_URL is not configured yet; skipping this hourly update."
-            exit 0
-          fi
-          npm run collect
+        run: npm run collect
 
       - name: Publish latest snapshot
         run: |
