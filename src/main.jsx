@@ -253,7 +253,7 @@ function App() {
 
   useEffect(() => {
     let active = true
-    fetch(`/data/latest.json?ts=${Date.now()}`, { cache: 'no-store' })
+    fetch(`${import.meta.env.BASE_URL}data/latest.json?ts=${Date.now()}`, { cache: 'no-store' })
       .then((response) => response.ok ? response.json() : null)
       .then((payload) => {
         if (!active || !Array.isArray(payload?.groups) || payload.groups.length === 0) return
