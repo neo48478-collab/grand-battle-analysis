@@ -270,7 +270,9 @@ function App() {
     return () => { active = false }
   }, [])
 
-  const allWorlds = groups.flatMap((item) => item.worlds.map((worldItem) => ({ ...worldItem, groupLabel: item.label, groupId: item.id })))
+  const allWorlds = groups
+    .flatMap((item) => item.worlds.map((worldItem) => ({ ...worldItem, groupLabel: item.label, groupId: item.id })))
+    .sort((left, right) => Number(left.label.slice(1)) - Number(right.label.slice(1)))
   const selectedWorld = allWorlds.find((item) => item.id === worldId) ?? allWorlds[0] ?? null
   const group = selectedWorld ? groups.find((item) => item.id === selectedWorld.groupId) ?? groups[0] : null
   const world = group ? group.worlds.find((item) => item.id === worldId) ?? group.worlds[0] : null
