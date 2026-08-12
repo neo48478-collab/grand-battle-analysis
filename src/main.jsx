@@ -247,9 +247,63 @@ function Icon({ name, size = 20 }) {
     crown: <><path d="m3 8 4 3 5-7 5 7 4-3-2 10H5L3 8Z" /><path d="M5 21h14" /></>,
     sword: <><path d="m14 5 5 5M4 20l6.5-6.5M13 6l5-3 2 2-3 5M11 8l5 5M4 4l6 6M3 21l3-1 1-3-3-3-3 3 2 2Z" /></>,
     refresh: <><path d="M20 11a8.1 8.1 0 0 0-14.7-3L3 11" /><path d="M3 5v6h6M4 13a8.1 8.1 0 0 0 14.7 3L21 13" /><path d="M21 19v-6h-6" /></>,
+    install: <><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></>,
     x: <><path d="m6 6 12 12M18 6 6 18" /></>,
   }
   return <svg aria-hidden="true" className="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">{paths[name]}</svg>
+}
+
+function InstallAppBanner() {
+  const [installPrompt, setInstallPrompt] = useState(null)
+  const [showHelp, setShowHelp] = useState(false)
+  const [installed, setInstalled] = useState(() => window.matchMedia('(display-mode: standalone)').matches)
+
+  useEffect(() => {
+    if (Capacitor.isNativePlatform()) return undefined
+
+    const handleInstallReady = (event) => {
+      event.preventDefault()
+      setInstallPrompt(event)
+    }
+    const handleInstalled = () => {
+      setInstalled(true)
+      setInstallPrompt(null)
+    }
+
+    window.addEventListener('beforeinstallprompt', handleInstallReady)
+    window.addEventListener('appinstalled', handleInstalled)
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handleInstallReady)
+      window.removeEventListener('appinstalled', handleInstalled)
+    }
+  }, [])
+
+  if (Capacitor.isNativePlatform() || installed) return null
+
+  const handleInstall = async () => {
+    if (!installPrompt) {
+      setShowHelp((current) => !current)
+      return
+    }
+
+    await installPrompt.prompt()
+    const choice = await installPrompt.userChoice
+    setInstallPrompt(null)
+    if (choice.outcome === 'accepted') setInstalled(true)
+    else setShowHelp(true)
+  }
+
+  return (
+    <section className="install-banner" aria-label="スマホアプリのインストール">
+      <div className="install-banner-icon"><Icon name="install" size={21} /></div>
+      <div className="install-banner-copy">
+        <strong>スマホにアプリを追加</strong>
+        <span>最初の1回だけ。追加後はホーム画面のアイコンからすぐ開けます。</span>
+      </div>
+      <button className="install-button" type="button" onClick={handleInstall}>アプリをインストール</button>
+      {showHelp ? <p className="install-help">AndroidのChromeで開き、右上の「︙」→「ホーム画面に追加」→「インストール」の順にタップしてください。</p> : null}
+    </section>
+  )
 }
 
 function App() {
@@ -333,6 +387,7 @@ function App() {
       </header>
 
       <main className="content">
+        <InstallAppBanner />
         <section className="intro-row">
           <div>
             <p className="section-kicker">SEARCH CONSOLE <span>01</span></p>
@@ -396,3 +451,9 @@ function App() {
 }
 
 createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>)
+
+if ('serviceWorker' in navigator && !Capacitor.isNativePlatform()) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL }).catch(() => {})
+  })
+}
