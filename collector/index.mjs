@@ -42,8 +42,17 @@ function parseCsv(text) {
   return rows
 }
 
-function normalisePartyCell(value) {
-  return value.replace(/\r?\n/g, ' ').replace(/\s+Lv\.?\s*\d+.*$/u, '').trim()
+function parsePartyCell(value) {
+  const text = value.replace(/\r?\n/g, ' ').replace(/\s+/g, ' ').trim()
+  if (!text) return null
+  const level = text.match(/\bLv\.?\s*(\d+)/iu)?.[1]
+  const withoutLevel = text.replace(/\s+Lv\.?\s*\d+.*$/iu, '').trim()
+  const attributeMatch = withoutLevel.match(/\s+(藍|紅|翠|黄|天|冥)$/u)
+  return {
+    name: (attributeMatch ? withoutLevel.slice(0, attributeMatch.index) : withoutLevel).trim(),
+    attribute: attributeMatch?.[1] ?? null,
+    level: level ? Number(level) : null,
+  }
 }
 
 async function loadPartyIndex() {
@@ -55,7 +64,7 @@ async function loadPartyIndex() {
     const world = row[1]?.trim()
     const name = row[2]?.trim()
     if (!world || !name) continue
-    const party = row.slice(12, 17).map(normalisePartyCell).filter(Boolean)
+    const party = row.slice(12, 17).map(parsePartyCell).filter(Boolean)
     if (party.length > 0) index.set(`${world}|${name}`, party)
   }
   return index

@@ -101,6 +101,7 @@ select option { background: #0e1b31; }
 .player-cell small { color: #7686a1; display: block; font-size: 9px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .power-cell { color: #c9d8ed; font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 500; }
 .party-cell { align-items: center; display: flex; gap: 8px; min-width: 0; }
+.party-level { color: #b8c9e1; font-family: 'DM Mono', monospace; font-size: 9px; font-weight: 600; white-space: nowrap; }
 .party-icons { display: flex; flex: 0 0 auto; gap: 4px; }
 .party-chip { align-items: center; border-radius: 50%; display: grid; font-family: 'Noto Sans JP', sans-serif; font-size: 9px; font-weight: 700; height: 23px; justify-content: center; width: 23px; }
 .party-chip.attribute-blue { background: rgba(77, 155, 255, .16); border: 1px solid rgba(77, 155, 255, .55); color: #9fcaff; }
