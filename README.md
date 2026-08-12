@@ -35,3 +35,14 @@ npm run build
 ## 自動更新
 
 `.github/workflows/update-upstream-data.yml` が毎時、日本時間の00分に実行され、最新スナップショットをコミットします。GitHub Pagesのデプロイは `deploy-pages.yml` が担当します。
+
+## Android版
+
+Android版は Capacitor で構成しています。画面はAPK内に同梱し、起動時に公開中の `data/latest.json` を取得するため、Web版と同じ毎時更新データを表示します。通信できない場合は、APK内に同梱した直近データを表示します。
+
+```bash
+npm run android:sync
+npm run android:open
+```
+
+GitHub Actionsの `Build Android APK` は、Android関連の変更が `main` に反映されたときにデバッグAPKを生成します。成果物名は `grand-battle-analysis-android` です。

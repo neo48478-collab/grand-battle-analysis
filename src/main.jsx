@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Capacitor } from '@capacitor/core'
 import './styles.css'
+
+const remoteDataUrl = 'https://neo48478-collab.github.io/grand-battle-analysis/data/latest.json'
 
 // This adapter is intentionally separate from the UI. The official upstream
 // endpoints require an authenticated game session; no credentials belong in
@@ -262,8 +265,14 @@ function App() {
 
   useEffect(() => {
     let active = true
-    fetch(`${import.meta.env.BASE_URL}data/latest.json?ts=${Date.now()}`, { cache: 'no-store' })
-      .then((response) => response.ok ? response.json() : null)
+    const bundledDataUrl = `${import.meta.env.BASE_URL}data/latest.json?ts=${Date.now()}`
+    const preferredDataUrl = Capacitor.isNativePlatform() ? `${remoteDataUrl}?ts=${Date.now()}` : bundledDataUrl
+    const loadData = (url) => fetch(url, { cache: 'no-store' }).then((response) => {
+      if (!response.ok) throw new Error(`Data request failed: ${response.status}`)
+      return response.json()
+    })
+    loadData(preferredDataUrl)
+      .catch(() => Capacitor.isNativePlatform() ? loadData(bundledDataUrl) : null)
       .then((payload) => {
         if (!active || !Array.isArray(payload?.groups) || payload.groups.length === 0) return
         const nextGroups = payload.groups

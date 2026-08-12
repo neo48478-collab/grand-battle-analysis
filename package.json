@@ -7,13 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "collect": "node collector/index.mjs"
+    "collect": "node collector/index.mjs",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android",
+    "android:apk": "npm run android:sync && cd android && gradlew.bat assembleDebug"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/core": "^8.5.0",
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "vite": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0"
+  }
 }
