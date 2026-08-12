@@ -223,6 +223,15 @@ const partyPresets = [
   ['ハトホル', 'ナターシャ', 'ディアン', 'フローレンス', 'コルディ'],
 ]
 
+const partyAttributeMeta = {
+  藍: { label: '藍', className: 'blue' },
+  紅: { label: '紅', className: 'red' },
+  翠: { label: '翠', className: 'green' },
+  黄: { label: '黄', className: 'yellow' },
+  天: { label: '天', className: 'white' },
+  冥: { label: '冥', className: 'purple' },
+}
+
 function Icon({ name, size = 20 }) {
   const paths = {
     menu: <><path d="M4 6h16M4 12h16M4 18h16" /></>,
@@ -365,7 +374,7 @@ function App() {
               <div className="guild-detail-head"><div className="detail-title"><div className="guild-emblem large"><Icon name="shield" size={30} /></div><div><p className="section-kicker">SELECTED GUILD <span>RANK {selectedGuild.rank}</span></p><h3>{selectedGuild.name}</h3><span className="detail-meta">{group?.label ?? '—'} / {world?.label ?? '—'}</span></div></div><button className="outline-button"><Icon name="sword" size={16} />詳細</button></div>
               <div className="metric-row"><div><span>総合戦闘力</span><strong>{formatNumber(selectedGuild.power)}</strong></div><div><span>メンバー</span><strong>{selectedGuild.members.length}<small> 名</small></strong></div></div>
               <div className="members-heading"><div><p className="section-kicker">MEMBERS <span>{filteredMembers.length}/{selectedGuild.members.length}</span></p><h3 className="members-title">メンバー <span className="member-scope-note">全サーバーランキング1万位以内</span></h3></div><label className="mini-search"><Icon name="search" size={16} /><input value={memberQuery} onChange={(event) => setMemberQuery(event.target.value)} placeholder="メンバー検索" aria-label="メンバー検索" /></label></div>
-              <div className="member-table-wrap"><div className="member-table-head"><span>#</span><span>PLAYER</span><span>戦力</span><span>レジェンドリーグ</span></div>{filteredMembers.map((member) => { const rawParty = member.party ?? partyPresets[(member.rank - 1) % partyPresets.length]; const party = rawParty.map((character) => typeof character === 'string' ? character : character?.name ?? character?.characterName ?? ''); return <div className="member-row" key={member.name}><span className={`member-rank ${member.rank <= 3 ? 'top' : ''}`}>{String(member.rank).padStart(2, '0')}</span><div className="player-cell"><span className={`avatar status-${member.status}`}>{member.name.slice(0, 1)}</span><span><strong>{member.name}</strong><small>{member.role}</small></span></div><strong className="power-cell">{formatNumber(member.power)}</strong><span className="party-cell"><span className="party-icons">{party.slice(0, 5).map((character, index) => <span className="party-chip" key={`${character}-${index}`} aria-label="パーティーメンバー">{character.slice(0, 1)}</span>)}</span></span></div> })}</div>
+              <div className="member-table-wrap"><div className="member-table-head"><span>#</span><span>PLAYER</span><span>戦力</span><span>レジェンドリーグ</span></div>{filteredMembers.map((member) => { const rawParty = member.party ?? partyPresets[(member.rank - 1) % partyPresets.length]; const party = rawParty.map((character) => { const value = typeof character === 'string' ? character : character?.name ?? character?.characterName ?? ''; const match = value.match(/^(.*)\s+(藍|紅|翠|黄|天|冥)$/); const attribute = typeof character === 'object' ? character?.attribute ?? character?.element : match?.[2]; return { name: match?.[1] ?? value, attribute: partyAttributeMeta[attribute] ? attribute : null } }); return <div className="member-row" key={member.name}><span className={`member-rank ${member.rank <= 3 ? 'top' : ''}`}>{String(member.rank).padStart(2, '0')}</span><div className="player-cell"><span className={`avatar status-${member.status}`}>{member.name.slice(0, 1)}</span><span><strong>{member.name}</strong><small>{member.role}</small></span></div><strong className="power-cell">{formatNumber(member.power)}</strong><span className="party-cell"><span className="party-icons">{party.slice(0, 5).map(({ name, attribute }, index) => <span className={`party-chip ${attribute ? `attribute-${partyAttributeMeta[attribute].className}` : 'attribute-unknown'}`} key={`${name}-${index}`} aria-label={`${name}${attribute ? `・${attribute}属性` : '・属性不明'}`} title={`${name}${attribute ? `・${attribute}属性` : '・属性不明'}`}>{attribute ? partyAttributeMeta[attribute].label : '?'}</span>)}</span></span></div> })}</div>
             </> : <div className="empty-state large-empty"><Icon name="shield" size={38} /><strong>{dataStatus === 'pending' ? '上流データ接続待ち' : 'ギルドを選択してください'}</strong><span>{dataStatus === 'pending' ? '実際のギルドデータを接続するとメンバーが表示されます。' : '一覧からギルドをタップするとメンバーが表示されます。'}</span></div>}
           </section>
         </div>
