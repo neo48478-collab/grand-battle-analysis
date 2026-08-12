@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grand-battle-shell-v1'
+const CACHE_NAME = 'grand-battle-shell-v2'
 const APP_SHELL = ['./', './manifest.webmanifest', './app-icon-192.png', './app-icon.svg']
 
 self.addEventListener('install', (event) => {
@@ -34,9 +34,11 @@ self.addEventListener('fetch', (event) => {
   }
 
   event.respondWith(
-    caches.match(request).then((cached) => cached || fetch(request).then((response) => {
-      if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()))
-      return response
-    })),
+    fetch(request)
+      .then((response) => {
+        if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()))
+        return response
+      })
+      .catch(() => caches.match(request)),
   )
 })
