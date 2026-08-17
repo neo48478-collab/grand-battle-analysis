@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "authorized-upstream-api",
-  "updatedAt": "2026-08-16T23:10:06.622Z",
+  "updatedAt": "2026-08-17T00:35:22.733Z",
   "groups": [
     {
       "id": "group-182",
@@ -532,7 +532,7 @@
                 {
                   "rank": 8,
                   "name": "政幸",
-                  "power": 859179657,
+                  "power": 859189556,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -656,7 +656,7 @@
                 {
                   "rank": 2,
                   "name": "喜助",
-                  "power": 1384379444,
+                  "power": 1384642928,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -845,7 +845,7 @@
                 {
                   "rank": 2,
                   "name": "山田",
-                  "power": 875757374,
+                  "power": 876416557,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -1129,14 +1129,6 @@
                 },
                 {
                   "rank": 6,
-                  "name": "marigold ",
-                  "power": 815391243,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 7,
                   "name": "kaz",
                   "power": 697601275,
                   "role": "ギルド",
@@ -1170,7 +1162,7 @@
                   ]
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "まぁ",
                   "power": 628896649,
                   "role": "ギルド",
@@ -1178,7 +1170,7 @@
                   "party": null
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "アテナイン",
                   "power": 618605258,
                   "role": "ギルド",
@@ -1212,7 +1204,7 @@
                   ]
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "カーミラ",
                   "power": 596100032,
                   "role": "ギルド",
@@ -1220,7 +1212,7 @@
                   "party": null
                 },
                 {
-                  "rank": 11,
+                  "rank": 10,
                   "name": "ゆーろす",
                   "power": 574478384,
                   "role": "ギルド",
@@ -1228,7 +1220,7 @@
                   "party": null
                 },
                 {
-                  "rank": 12,
+                  "rank": 11,
                   "name": "楸ひ秋さ愀ぎ鰍",
                   "power": 544609715,
                   "role": "ギルド",
@@ -1236,7 +1228,7 @@
                   "party": null
                 },
                 {
-                  "rank": 13,
+                  "rank": 12,
                   "name": "かに",
                   "power": 536239536,
                   "role": "ギルド",
@@ -1270,7 +1262,7 @@
                   ]
                 },
                 {
-                  "rank": 14,
+                  "rank": 13,
                   "name": "たけωノこ",
                   "power": 535302298,
                   "role": "ギルド",
@@ -1278,7 +1270,7 @@
                   "party": null
                 },
                 {
-                  "rank": 15,
+                  "rank": 14,
                   "name": "plum",
                   "power": 527131419,
                   "role": "ギルド",
@@ -1286,7 +1278,7 @@
                   "party": null
                 },
                 {
-                  "rank": 16,
+                  "rank": 15,
                   "name": "KENISHIL",
                   "power": 518335045,
                   "role": "ギルド",
@@ -1294,7 +1286,7 @@
                   "party": null
                 },
                 {
-                  "rank": 17,
+                  "rank": 16,
                   "name": "さくれあ",
                   "power": 510012484,
                   "role": "ギルド",
@@ -1471,6 +1463,40 @@
                 },
                 {
                   "rank": 8,
+                  "name": "MT23",
+                  "power": 791010318,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "アーティ",
+                      "attribute": "紅",
+                      "level": 525
+                    },
+                    {
+                      "name": "ルシール",
+                      "attribute": "紅",
+                      "level": 525
+                    },
+                    {
+                      "name": "フラック",
+                      "attribute": "紅",
+                      "level": 525
+                    },
+                    {
+                      "name": "メリア",
+                      "attribute": "天",
+                      "level": 525
+                    },
+                    {
+                      "name": "プリマヴェーラ",
+                      "attribute": "黄",
+                      "level": 525
+                    }
+                  ]
+                },
+                {
+                  "rank": 9,
                   "name": "八雲",
                   "power": 788910861,
                   "role": "ギルド",
@@ -1504,7 +1530,7 @@
                   ]
                 },
                 {
-                  "rank": 9,
+                  "rank": 10,
                   "name": "レン",
                   "power": 747735424,
                   "role": "ギルドマスター",
@@ -1538,7 +1564,7 @@
                   ]
                 },
                 {
-                  "rank": 10,
+                  "rank": 11,
                   "name": "うまる",
                   "power": 692475719,
                   "role": "ギルド",
@@ -1546,7 +1572,7 @@
                   "party": null
                 },
                 {
-                  "rank": 11,
+                  "rank": 12,
                   "name": "ぽてと",
                   "power": 676011577,
                   "role": "ギルド",
@@ -1554,7 +1580,7 @@
                   "party": null
                 },
                 {
-                  "rank": 12,
+                  "rank": 13,
                   "name": "若草なずな",
                   "power": 616497658,
                   "role": "ギルド",
@@ -1562,7 +1588,7 @@
                   "party": null
                 },
                 {
-                  "rank": 13,
+                  "rank": 14,
                   "name": "rylen",
                   "power": 606000246,
                   "role": "ギルド",
@@ -1570,7 +1596,7 @@
                   "party": null
                 },
                 {
-                  "rank": 14,
+                  "rank": 15,
                   "name": "Holly",
                   "power": 554210210,
                   "role": "ギルド",
@@ -1578,7 +1604,7 @@
                   "party": null
                 },
                 {
-                  "rank": 15,
+                  "rank": 16,
                   "name": "おもち",
                   "power": 516210941,
                   "role": "ギルド",
@@ -1586,7 +1612,7 @@
                   "party": null
                 },
                 {
-                  "rank": 16,
+                  "rank": 17,
                   "name": "ClariS",
                   "power": 502044973,
                   "role": "ギルド",
@@ -1654,7 +1680,7 @@
                 {
                   "rank": 4,
                   "name": "testi",
-                  "power": 601070480,
+                  "power": 605640291,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -2175,7 +2201,7 @@
                 {
                   "rank": 10,
                   "name": "もりりん",
-                  "power": 862680579,
+                  "power": 862702662,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -3170,7 +3196,7 @@
                 {
                   "rank": 19,
                   "name": "蒼月のアックル",
-                  "power": 490386814,
+                  "power": 492679238,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -3589,7 +3615,7 @@
                 {
                   "rank": 1,
                   "name": "レグルス",
-                  "power": 504030170,
+                  "power": 504063140,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -4279,7 +4305,7 @@
                 {
                   "rank": 2,
                   "name": "百合水仙",
-                  "power": 1001306175,
+                  "power": 1001317131,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -6910,7 +6936,7 @@
                 {
                   "rank": 4,
                   "name": "ぴぴだよ！",
-                  "power": 552858562,
+                  "power": 552892762,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -8482,7 +8508,7 @@
                 {
                   "rank": 3,
                   "name": "ひでのじ",
-                  "power": 1680800311,
+                  "power": 1680863813,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -9482,7 +9508,7 @@
                 {
                   "rank": 3,
                   "name": "ぷるった",
-                  "power": 1434727196,
+                  "power": 1434790381,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -10285,7 +10311,7 @@
                 {
                   "rank": 3,
                   "name": "トーモロー",
-                  "power": 850774593,
+                  "power": 850816087,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -11820,7 +11846,7 @@
                 {
                   "rank": 1,
                   "name": "狼戊（ろぼ）",
-                  "power": 774101853,
+                  "power": 774121346,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -12433,7 +12459,7 @@
                 {
                   "rank": 6,
                   "name": "ねこうさぎ",
-                  "power": 780592222,
+                  "power": 780595032,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -14441,7 +14467,7 @@
                 {
                   "rank": 3,
                   "name": "mimu.",
-                  "power": 606933764,
+                  "power": 607271738,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -17961,15 +17987,7 @@
                 {
                   "rank": 8,
                   "name": "ハルオリ",
-                  "power": 497307569,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 9,
-                  "name": "hiko",
-                  "power": 464825191,
+                  "power": 497764303,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -17985,7 +18003,7 @@
                 {
                   "rank": 1,
                   "name": "lismy",
-                  "power": 1088083998,
+                  "power": 1088104621,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -18222,6 +18240,14 @@
                   "rank": 11,
                   "name": " ",
                   "power": 472536314,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 12,
+                  "name": "もも",
+                  "power": 466239963,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -18595,7 +18621,7 @@
                 {
                   "rank": 1,
                   "name": "白い29",
-                  "power": 1452836256,
+                  "power": 1452869778,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -19969,7 +19995,7 @@
                 {
                   "rank": 3,
                   "name": "凪",
-                  "power": 663249555,
+                  "power": 663324501,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -20575,7 +20601,7 @@
                 {
                   "rank": 4,
                   "name": "ジン",
-                  "power": 1205190561,
+                  "power": 1205402329,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -23013,7 +23039,7 @@
                 {
                   "rank": 1,
                   "name": "まぁ〜",
-                  "power": 685366522,
+                  "power": 685373338,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -23081,7 +23107,7 @@
                 {
                   "rank": 3,
                   "name": "アリナ",
-                  "power": 499361517,
+                  "power": 499364987,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -23566,7 +23592,7 @@
                 {
                   "rank": 9,
                   "name": "sachi",
-                  "power": 946565407,
+                  "power": 947144557,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -23640,7 +23666,7 @@
                 {
                   "rank": 15,
                   "name": "シキ",
-                  "power": 736831943,
+                  "power": 739455253,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -24707,7 +24733,7 @@
                 {
                   "rank": 3,
                   "name": "AyaN",
-                  "power": 892916095,
+                  "power": 897785222,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -25051,7 +25077,7 @@
                 {
                   "rank": 7,
                   "name": "ヨシ",
-                  "power": 500104062,
+                  "power": 500120255,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -26871,7 +26897,7 @@
                 {
                   "rank": 1,
                   "name": "しょんぼりおん",
-                  "power": 1237149924,
+                  "power": 1237170701,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -27061,7 +27087,7 @@
                 {
                   "rank": 1,
                   "name": "右45度",
-                  "power": 557439959,
+                  "power": 559528685,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -27344,7 +27370,7 @@
                 {
                   "rank": 8,
                   "name": "氷雨+*",
-                  "power": 597584276,
+                  "power": 597587276,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -31650,7 +31676,7 @@
                 {
                   "rank": 1,
                   "name": "ぽて",
-                  "power": 839265309,
+                  "power": 839321539,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -31894,7 +31920,7 @@
                 {
                   "rank": 5,
                   "name": "くるお",
-                  "power": 850121714,
+                  "power": 850180429,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -32232,7 +32258,7 @@
                 {
                   "rank": 18,
                   "name": "まい",
-                  "power": 576404952,
+                  "power": 577272577,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -33780,7 +33806,7 @@
                 {
                   "rank": 1,
                   "name": "あおい",
-                  "power": 2431501993,
+                  "power": 2432159210,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -37576,7 +37602,7 @@
                 {
                   "rank": 9,
                   "name": "リンド",
-                  "power": 772986486,
+                  "power": 773182354,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -37976,7 +38002,7 @@
                 {
                   "rank": 1,
                   "name": "keyri",
-                  "power": 1317104631,
+                  "power": 1317122473,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -38044,7 +38070,7 @@
                 {
                   "rank": 3,
                   "name": "ダリア",
-                  "power": 764866388,
+                  "power": 764928442,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -38652,7 +38678,7 @@
                 {
                   "rank": 10,
                   "name": "たかおよよ",
-                  "power": 620091996,
+                  "power": 620110823,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -38812,7 +38838,7 @@
                 {
                   "rank": 17,
                   "name": "タマ推薦人:ありす",
-                  "power": 499619821,
+                  "power": 499875504,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -40717,7 +40743,7 @@
                 {
                   "rank": 4,
                   "name": "ʚソダシだしɞ",
-                  "power": 1132572110,
+                  "power": 1132648721,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -41235,40 +41261,6 @@
                 },
                 {
                   "rank": 2,
-                  "name": "守護天使ホーク",
-                  "power": 1955938529,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "カグヤ",
-                      "attribute": "冥",
-                      "level": 785
-                    },
-                    {
-                      "name": "パラデア",
-                      "attribute": "冥",
-                      "level": 785
-                    },
-                    {
-                      "name": "宝物ケルベロス",
-                      "attribute": "冥",
-                      "level": 785
-                    },
-                    {
-                      "name": "花束ナターシャ",
-                      "attribute": "冥",
-                      "level": 785
-                    },
-                    {
-                      "name": "神呪イリア",
-                      "attribute": "冥",
-                      "level": 785
-                    }
-                  ]
-                },
-                {
-                  "rank": 3,
                   "name": "特攻隊長まだお",
                   "power": 1431280173,
                   "role": "ギルド",
@@ -41302,7 +41294,7 @@
                   ]
                 },
                 {
-                  "rank": 4,
+                  "rank": 3,
                   "name": "kars",
                   "power": 1282213413,
                   "role": "ギルド",
@@ -41336,7 +41328,7 @@
                   ]
                 },
                 {
-                  "rank": 5,
+                  "rank": 4,
                   "name": "大吉",
                   "power": 1180314226,
                   "role": "ギルド",
@@ -41370,7 +41362,7 @@
                   ]
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "りく",
                   "power": 1081396939,
                   "role": "ギルド",
@@ -41404,7 +41396,7 @@
                   ]
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "NEra",
                   "power": 1042032677,
                   "role": "ギルド",
@@ -41438,7 +41430,7 @@
                   ]
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "姫女苑",
                   "power": 972744901,
                   "role": "ギルド",
@@ -41472,7 +41464,7 @@
                   ]
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "TAKA",
                   "power": 825377973,
                   "role": "ギルド",
@@ -41506,7 +41498,7 @@
                   ]
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "八雲",
                   "power": 759359316,
                   "role": "ギルド",
@@ -41540,7 +41532,7 @@
                   ]
                 },
                 {
-                  "rank": 11,
+                  "rank": 10,
                   "name": "ふぉん",
                   "power": 686082552,
                   "role": "ギルド",
@@ -41574,7 +41566,7 @@
                   ]
                 },
                 {
-                  "rank": 12,
+                  "rank": 11,
                   "name": "ハレ",
                   "power": 606280302,
                   "role": "ギルド",
@@ -41608,7 +41600,7 @@
                   ]
                 },
                 {
-                  "rank": 13,
+                  "rank": 12,
                   "name": "あんまん",
                   "power": 573462428,
                   "role": "ギルド",
@@ -41616,7 +41608,7 @@
                   "party": null
                 },
                 {
-                  "rank": 14,
+                  "rank": 13,
                   "name": "ゆずりは",
                   "power": 558800089,
                   "role": "ギルド",
@@ -41624,7 +41616,7 @@
                   "party": null
                 },
                 {
-                  "rank": 15,
+                  "rank": 14,
                   "name": "秋桜",
                   "power": 547386196,
                   "role": "ギルド",
@@ -41632,7 +41624,7 @@
                   "party": null
                 },
                 {
-                  "rank": 16,
+                  "rank": 15,
                   "name": "コズミックブレイ",
                   "power": 525120530,
                   "role": "ギルドマスター",
@@ -41640,7 +41632,7 @@
                   "party": null
                 },
                 {
-                  "rank": 17,
+                  "rank": 16,
                   "name": "リンサード",
                   "power": 520470911,
                   "role": "ギルド",
@@ -41648,7 +41640,7 @@
                   "party": null
                 },
                 {
-                  "rank": 18,
+                  "rank": 17,
                   "name": "エンリケ",
                   "power": 518856620,
                   "role": "ギルド",
@@ -41656,7 +41648,7 @@
                   "party": null
                 },
                 {
-                  "rank": 19,
+                  "rank": 18,
                   "name": "まめ",
                   "power": 502937805,
                   "role": "ギルド",
@@ -41664,7 +41656,7 @@
                   "party": null
                 },
                 {
-                  "rank": 20,
+                  "rank": 19,
                   "name": "サクア",
                   "power": 477280085,
                   "role": "ギルド",
@@ -41698,15 +41690,15 @@
                   ]
                 },
                 {
-                  "rank": 21,
+                  "rank": 20,
                   "name": "さーもん",
-                  "power": 458186198,
+                  "power": 459186987,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 },
                 {
-                  "rank": 22,
+                  "rank": 21,
                   "name": "cark-minor",
                   "power": 445640825,
                   "role": "ギルド",
@@ -41913,6 +41905,40 @@
               "members": [
                 {
                   "rank": 1,
+                  "name": "守護天使ホーク",
+                  "power": 1955938529,
+                  "role": "ギルドマスター",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "カグヤ",
+                      "attribute": "冥",
+                      "level": 785
+                    },
+                    {
+                      "name": "パラデア",
+                      "attribute": "冥",
+                      "level": 785
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 785
+                    },
+                    {
+                      "name": "花束ナターシャ",
+                      "attribute": "冥",
+                      "level": 785
+                    },
+                    {
+                      "name": "神呪イリア",
+                      "attribute": "冥",
+                      "level": 785
+                    }
+                  ]
+                },
+                {
+                  "rank": 2,
                   "name": "まほなにー",
                   "power": 602325304,
                   "role": "ギルド",
@@ -41946,7 +41972,7 @@
                   ]
                 },
                 {
-                  "rank": 2,
+                  "rank": 3,
                   "name": "しゃみ担ぅ々ぅ麺",
                   "power": 544746368,
                   "role": "ギルド",
@@ -41980,7 +42006,7 @@
                   ]
                 },
                 {
-                  "rank": 3,
+                  "rank": 4,
                   "name": "スフレ",
                   "power": 517591125,
                   "role": "ギルド",
@@ -42014,7 +42040,7 @@
                   ]
                 },
                 {
-                  "rank": 4,
+                  "rank": 5,
                   "name": "みそみかん",
                   "power": 490753029,
                   "role": "ギルド",
@@ -42022,7 +42048,7 @@
                   "party": null
                 },
                 {
-                  "rank": 5,
+                  "rank": 6,
                   "name": "メメントマモリ",
                   "power": 456168107,
                   "role": "ギルド",
@@ -42095,7 +42121,7 @@
                 {
                   "rank": 1,
                   "name": "♪ジウ♪",
-                  "power": 451194252,
+                  "power": 451730997,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -43273,7 +43299,7 @@
                 {
                   "rank": 11,
                   "name": "ぱねんか",
-                  "power": 556498267,
+                  "power": 557507898,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -43329,7 +43355,7 @@
                 {
                   "rank": 18,
                   "name": "ジュリ",
-                  "power": 488513097,
+                  "power": 488532136,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -43647,7 +43673,7 @@
                 {
                   "rank": 3,
                   "name": "クック",
-                  "power": 588597804,
+                  "power": 588680001,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -44288,7 +44314,7 @@
                 {
                   "rank": 14,
                   "name": "ミュー",
-                  "power": 503229941,
+                  "power": 503325198,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -45946,7 +45972,7 @@
                 {
                   "rank": 7,
                   "name": "深海の魔女/Alo",
-                  "power": 620529407,
+                  "power": 620535047,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -47340,7 +47366,7 @@
                 {
                   "rank": 2,
                   "name": "冥土",
-                  "power": 915682481,
+                  "power": 915733665,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -47574,7 +47600,7 @@
                 {
                   "rank": 2,
                   "name": "オオクワガタ",
-                  "power": 640957863,
+                  "power": 640974170,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -50921,7 +50947,7 @@
                 {
                   "rank": 5,
                   "name": "める",
-                  "power": 734882291,
+                  "power": 734900276,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -51081,7 +51107,7 @@
                 {
                   "rank": 12,
                   "name": "パテマ",
-                  "power": 464307866,
+                  "power": 464369016,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -51145,7 +51171,7 @@
                 {
                   "rank": 4,
                   "name": "あげたこ",
-                  "power": 457585625,
+                  "power": 457587125,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -52224,7 +52250,7 @@
                 {
                   "rank": 3,
                   "name": "みぃみ",
-                  "power": 492255154,
+                  "power": 492258154,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -52362,7 +52388,7 @@
                 {
                   "rank": 2,
                   "name": "意識　観",
-                  "power": 463420336,
+                  "power": 463475309,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -52716,7 +52742,7 @@
                 {
                   "rank": 12,
                   "name": "あだもの",
-                  "power": 520209761,
+                  "power": 520254761,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -53804,6 +53830,14 @@
                 },
                 {
                   "rank": 26,
+                  "name": "はっか",
+                  "power": 497653948,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 27,
                   "name": "ルクス",
                   "power": 493920930,
                   "role": "ギルド",
@@ -53851,14 +53885,6 @@
                       "level": 470
                     }
                   ]
-                },
-                {
-                  "rank": 2,
-                  "name": "カイセイ",
-                  "power": 492726032,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
                 }
               ]
             },
@@ -53984,6 +54010,14 @@
               "members": [
                 {
                   "rank": 1,
+                  "name": "(っ^ω^)ﾏｯ",
+                  "power": 745292804,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 2,
                   "name": "ao",
                   "power": 560382384,
                   "role": "ギルド",
@@ -53991,7 +54025,7 @@
                   "party": null
                 },
                 {
-                  "rank": 2,
+                  "rank": 3,
                   "name": "よるまねき",
                   "power": 522732343,
                   "role": "ギルド",
@@ -53999,7 +54033,7 @@
                   "party": null
                 },
                 {
-                  "rank": 3,
+                  "rank": 4,
                   "name": "ニコ",
                   "power": 501140300,
                   "role": "ギルド",
@@ -55162,6 +55196,40 @@
                 },
                 {
                   "rank": 2,
+                  "name": "でゅっち",
+                  "power": 909877169,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "花束ナターシャ",
+                      "attribute": "冥",
+                      "level": 608
+                    },
+                    {
+                      "name": "パラデア",
+                      "attribute": "冥",
+                      "level": 608
+                    },
+                    {
+                      "name": "ルナリンド",
+                      "attribute": "冥",
+                      "level": 608
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 608
+                    },
+                    {
+                      "name": "神呪イリア",
+                      "attribute": "冥",
+                      "level": 608
+                    }
+                  ]
+                },
+                {
+                  "rank": 3,
                   "name": "桃れな",
                   "power": 904384432,
                   "role": "ギルド",
@@ -55195,7 +55263,7 @@
                   ]
                 },
                 {
-                  "rank": 3,
+                  "rank": 4,
                   "name": "あらびあ",
                   "power": 901984654,
                   "role": "ギルド",
@@ -55229,43 +55297,9 @@
                   ]
                 },
                 {
-                  "rank": 4,
-                  "name": "でゅっち",
-                  "power": 891745978,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "花束ナターシャ",
-                      "attribute": "冥",
-                      "level": 608
-                    },
-                    {
-                      "name": "パラデア",
-                      "attribute": "冥",
-                      "level": 608
-                    },
-                    {
-                      "name": "ルナリンド",
-                      "attribute": "冥",
-                      "level": 608
-                    },
-                    {
-                      "name": "宝物ケルベロス",
-                      "attribute": "冥",
-                      "level": 608
-                    },
-                    {
-                      "name": "神呪イリア",
-                      "attribute": "冥",
-                      "level": 608
-                    }
-                  ]
-                },
-                {
                   "rank": 5,
                   "name": "もんもん",
-                  "power": 774570183,
+                  "power": 774585685,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -55375,7 +55409,7 @@
                 {
                   "rank": 9,
                   "name": "ぺろ",
-                  "power": 658770559,
+                  "power": 658789391,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -55533,7 +55567,7 @@
                 {
                   "rank": 7,
                   "name": "リヒト",
-                  "power": 663386823,
+                  "power": 664272029,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -56977,7 +57011,7 @@
                 {
                   "rank": 1,
                   "name": "ばる",
-                  "power": 1124483278,
+                  "power": 1125349722,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -57205,7 +57239,7 @@
                 {
                   "rank": 10,
                   "name": "ハレルヤ",
-                  "power": 479657116,
+                  "power": 479674116,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -57473,7 +57507,7 @@
                 {
                   "rank": 10,
                   "name": "アースガルズ",
-                  "power": 498209183,
+                  "power": 498240970,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -57884,7 +57918,7 @@
                 {
                   "rank": 1,
                   "name": "おもち",
-                  "power": 2310134472,
+                  "power": 2310460842,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -58280,7 +58314,7 @@
                 {
                   "rank": 6,
                   "name": "アマクニ",
-                  "power": 710272136,
+                  "power": 710291494,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -58486,7 +58520,7 @@
                 {
                   "rank": 1,
                   "name": "あまてら",
-                  "power": 1802747053,
+                  "power": 1802808388,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -59226,7 +59260,7 @@
                 {
                   "rank": 7,
                   "name": "すずめ",
-                  "power": 499984353,
+                  "power": 499987353,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -59754,7 +59788,7 @@
                 {
                   "rank": 2,
                   "name": "ている",
-                  "power": 512027428,
+                  "power": 512028178,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -60200,7 +60234,7 @@
                 {
                   "rank": 3,
                   "name": "マリフィーオ",
-                  "power": 908180646,
+                  "power": 912412751,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -60424,7 +60458,7 @@
                 {
                   "rank": 2,
                   "name": "まーらいおん",
-                  "power": 441047983,
+                  "power": 441049333,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -60937,7 +60971,7 @@
                 {
                   "rank": 4,
                   "name": "【天】竜成",
-                  "power": 821815443,
+                  "power": 821947648,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -64158,7 +64192,7 @@
                 {
                   "rank": 10,
                   "name": "こ↑こ↓ろ",
-                  "power": 544794531,
+                  "power": 544813520,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -64578,7 +64612,7 @@
                 {
                   "rank": 7,
                   "name": "Alonso",
-                  "power": 568490240,
+                  "power": 569328925,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -64938,7 +64972,7 @@
                 {
                   "rank": 2,
                   "name": "ゆうちゃん",
-                  "power": 1012863762,
+                  "power": 1012962915,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -66543,7 +66577,7 @@
                 {
                   "rank": 5,
                   "name": "りも",
-                  "power": 533814271,
+                  "power": 533827841,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -67802,7 +67836,7 @@
                 {
                   "rank": 2,
                   "name": "ハイブリッドれぷ",
-                  "power": 669371412,
+                  "power": 669530960,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -67900,7 +67934,7 @@
                 {
                   "rank": 1,
                   "name": "おぢさんず11なぁ",
-                  "power": 582174445,
+                  "power": 582485458,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -68329,7 +68363,7 @@
                 {
                   "rank": 11,
                   "name": "すぺっちゅりん",
-                  "power": 784421969,
+                  "power": 784428719,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -68397,7 +68431,7 @@
                 {
                   "rank": 13,
                   "name": "しか",
-                  "power": 654307913,
+                  "power": 655104859,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -70220,7 +70254,7 @@
                 {
                   "rank": 15,
                   "name": "ルーたんママなのら",
-                  "power": 677229145,
+                  "power": 677758411,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -70394,7 +70428,7 @@
                 {
                   "rank": 5,
                   "name": "リシアンサス",
-                  "power": 675005160,
+                  "power": 684160442,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -72782,7 +72816,7 @@
                 {
                   "rank": 10,
                   "name": "ｒｄｒ",
-                  "power": 565827272,
+                  "power": 565846105,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -72964,7 +72998,7 @@
                 {
                   "rank": 5,
                   "name": "レイ",
-                  "power": 529323979,
+                  "power": 529342632,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -73232,7 +73266,7 @@
                 {
                   "rank": 4,
                   "name": "りらか",
-                  "power": 486653923,
+                  "power": 487087281,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -73241,7 +73275,7 @@
             },
             {
               "id": "1075-709366311075",
-              "name": "アポロ商店街ω",
+              "name": "アポロ商店街",
               "rank": 14,
               "power": 11835659135,
               "members": [
@@ -74808,7 +74842,7 @@
                 {
                   "rank": 6,
                   "name": "Nanna",
-                  "power": 557585724,
+                  "power": 559187821,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -74816,7 +74850,7 @@
                 {
                   "rank": 7,
                   "name": "赤夢",
-                  "power": 553562700,
+                  "power": 553580388,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -76330,7 +76364,7 @@
                 {
                   "rank": 8,
                   "name": "たつき",
-                  "power": 562595162,
+                  "power": 563053864,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -78080,7 +78114,7 @@
                 {
                   "rank": 9,
                   "name": "ちむちゃん",
-                  "power": 591421702,
+                  "power": 592208646,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -78206,7 +78240,7 @@
                 {
                   "rank": 2,
                   "name": "KJ",
-                  "power": 954062952,
+                  "power": 954082296,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -78514,7 +78548,7 @@
                 {
                   "rank": 1,
                   "name": "ぺんぎぬす",
-                  "power": 766501890,
+                  "power": 766521833,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -79682,7 +79716,7 @@
                 {
                   "rank": 1,
                   "name": "もも",
-                  "power": 539577512,
+                  "power": 541009736,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -79738,7 +79772,7 @@
                 {
                   "rank": 1,
                   "name": "あーす",
-                  "power": 1884875036,
+                  "power": 1884895280,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -80391,6 +80425,40 @@
                 },
                 {
                   "rank": 4,
+                  "name": "リリーブラック",
+                  "power": 622401989,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "メリア",
+                      "attribute": "天",
+                      "level": 470
+                    },
+                    {
+                      "name": "ルサールカ",
+                      "attribute": "天",
+                      "level": 470
+                    },
+                    {
+                      "name": "リリー",
+                      "attribute": "天",
+                      "level": 470
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 470
+                    },
+                    {
+                      "name": "リヴェリア",
+                      "attribute": "天",
+                      "level": 470
+                    }
+                  ]
+                },
+                {
+                  "rank": 5,
                   "name": "水戸ホーリーホック",
                   "power": 519994777,
                   "role": "ギルド",
@@ -80398,7 +80466,7 @@
                   "party": null
                 },
                 {
-                  "rank": 5,
+                  "rank": 6,
                   "name": "せらねこ",
                   "power": 509321205,
                   "role": "ギルド",
@@ -80406,7 +80474,7 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 7,
                   "name": "あつち",
                   "power": 489568248,
                   "role": "ギルド",
@@ -80414,7 +80482,7 @@
                   "party": null
                 },
                 {
-                  "rank": 7,
+                  "rank": 8,
                   "name": "サトゥ",
                   "power": 484890215,
                   "role": "ギルド",
@@ -80422,7 +80490,7 @@
                   "party": null
                 },
                 {
-                  "rank": 8,
+                  "rank": 9,
                   "name": "ひろん坊",
                   "power": 480276495,
                   "role": "ギルドマスター",
@@ -80612,7 +80680,7 @@
                 {
                   "rank": 2,
                   "name": "あいす",
-                  "power": 831243600,
+                  "power": 831752217,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -80980,7 +81048,7 @@
                 {
                   "rank": 7,
                   "name": "せんせー",
-                  "power": 621397959,
+                  "power": 628252881,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -81122,7 +81190,7 @@
                 {
                   "rank": 5,
                   "name": "のーざん",
-                  "power": 682266417,
+                  "power": 682323102,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -81954,7 +82022,7 @@
                 {
                   "rank": 7,
                   "name": "原初終焉の魔女マシロ",
-                  "power": 623844958,
+                  "power": 623997894,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -82304,7 +82372,7 @@
                 {
                   "rank": 1,
                   "name": "オウル",
-                  "power": 948472252,
+                  "power": 948492094,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -82930,7 +82998,7 @@
                 {
                   "rank": 1,
                   "name": "@ありぽん",
-                  "power": 2972777957,
+                  "power": 2972991330,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -83173,14 +83241,6 @@
                 },
                 {
                   "rank": 8,
-                  "name": "【薔薇十字団】薔薇",
-                  "power": 707556959,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 9,
                   "name": "ひとぴい",
                   "power": 631208491,
                   "role": "ギルド",
@@ -83188,7 +83248,7 @@
                   "party": null
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "リラこ",
                   "power": 628730532,
                   "role": "ギルド",
@@ -83215,6 +83275,14 @@
                   "rank": 2,
                   "name": "juliet",
                   "power": 805559440,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 3,
+                  "name": "【薔薇十字団】薔薇",
+                  "power": 707556959,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -84339,7 +84407,7 @@
                 {
                   "rank": 5,
                   "name": "テイカカズラ•カル",
-                  "power": 865748284,
+                  "power": 866923903,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -84415,7 +84483,7 @@
                 {
                   "rank": 8,
                   "name": "ひまわりサクちゃん",
-                  "power": 655011198,
+                  "power": 655028890,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -84735,7 +84803,7 @@
                 {
                   "rank": 10,
                   "name": "にゃんこの子",
-                  "power": 720465037,
+                  "power": 720491593,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -85690,7 +85758,7 @@
                 {
                   "rank": 4,
                   "name": "指揮官",
-                  "power": 557788378,
+                  "power": 557806300,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -86031,40 +86099,6 @@
                 },
                 {
                   "rank": 2,
-                  "name": "エイドナ",
-                  "power": 1723833103,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "ルスティカ",
-                      "attribute": "黄",
-                      "level": 795
-                    },
-                    {
-                      "name": "タマ",
-                      "attribute": "黄",
-                      "level": 795
-                    },
-                    {
-                      "name": "モワノー",
-                      "attribute": "黄",
-                      "level": 795
-                    },
-                    {
-                      "name": "夏アムレート",
-                      "attribute": "黄",
-                      "level": 795
-                    },
-                    {
-                      "name": "ルサールカ",
-                      "attribute": "天",
-                      "level": 795
-                    }
-                  ]
-                },
-                {
-                  "rank": 3,
                   "name": "ニフタロッサ",
                   "power": 1341992908,
                   "role": "ギルド",
@@ -86098,7 +86132,7 @@
                   ]
                 },
                 {
-                  "rank": 4,
+                  "rank": 3,
                   "name": "のこのこ珍宝",
                   "power": 1171161203,
                   "role": "ギルド",
@@ -86132,7 +86166,7 @@
                   ]
                 },
                 {
-                  "rank": 5,
+                  "rank": 4,
                   "name": "ハオ",
                   "power": 760779538,
                   "role": "ギルド",
@@ -86166,7 +86200,7 @@
                   ]
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "ルミナスバレンタシン",
                   "power": 758384018,
                   "role": "ギルド",
@@ -86200,7 +86234,7 @@
                   ]
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "グリュ",
                   "power": 714941044,
                   "role": "ギルド",
@@ -86234,7 +86268,7 @@
                   ]
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "アムルテンペスト",
                   "power": 673597261,
                   "role": "ギルドマスター",
@@ -86268,7 +86302,7 @@
                   ]
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "ゴル",
                   "power": 631630752,
                   "role": "ギルド",
@@ -86302,7 +86336,7 @@
                   ]
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "ぼっちざすけべー",
                   "power": 534994513,
                   "role": "ギルド",
@@ -86336,7 +86370,7 @@
                   ]
                 },
                 {
-                  "rank": 11,
+                  "rank": 10,
                   "name": "新米107",
                   "power": 441611585,
                   "role": "ギルド",
@@ -86344,7 +86378,7 @@
                   "party": null
                 },
                 {
-                  "rank": 12,
+                  "rank": 11,
                   "name": "ニア けるトン",
                   "power": 436057427,
                   "role": "ギルド",
@@ -87589,7 +87623,7 @@
                 {
                   "rank": 3,
                   "name": "おっとり耀さん",
-                  "power": 473741537,
+                  "power": 473759199,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -88440,7 +88474,7 @@
                 {
                   "rank": 2,
                   "name": "かるる",
-                  "power": 506081566,
+                  "power": 506086802,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -90054,7 +90088,7 @@
                 {
                   "rank": 1,
                   "name": "ルシア",
-                  "power": 2085694833,
+                  "power": 2085780991,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -90424,7 +90458,7 @@
                 {
                   "rank": 2,
                   "name": "せるけみー",
-                  "power": 476590063,
+                  "power": 476855607,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -90540,14 +90574,6 @@
                   "name": "アイるけみー",
                   "power": 601490809,
                   "role": "ギルドマスター",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 4,
-                  "name": "地霊ちゃん",
-                  "power": 561810754,
-                  "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 }
@@ -92291,7 +92317,7 @@
                 {
                   "rank": 4,
                   "name": "豚屋",
-                  "power": 717282542,
+                  "power": 717964412,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -92355,7 +92381,7 @@
                 {
                   "rank": 1,
                   "name": "やっさん",
-                  "power": 721473544,
+                  "power": 721488843,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -93222,7 +93248,7 @@
                 {
                   "rank": 4,
                   "name": "アリス",
-                  "power": 594248993,
+                  "power": 594266910,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -94219,7 +94245,7 @@
                 {
                   "rank": 3,
                   "name": "002たろ",
-                  "power": 1135753184,
+                  "power": 1141633303,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -94437,7 +94463,7 @@
                 {
                   "rank": 3,
                   "name": "黎明を統べるぽてさゎ",
-                  "power": 1247816457,
+                  "power": 1247876436,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -94789,7 +94815,7 @@
                 {
                   "rank": 4,
                   "name": "SHINO",
-                  "power": 1011986089,
+                  "power": 1011989089,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -95201,42 +95227,7 @@
               "name": "ほりにし",
               "rank": 33,
               "power": 10665117071,
-              "members": [
-                {
-                  "rank": 1,
-                  "name": "ほりにし☆あくあ",
-                  "power": 1155273706,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "ミラ",
-                      "attribute": "翠",
-                      "level": 631
-                    },
-                    {
-                      "name": "ポーラ",
-                      "attribute": "翠",
-                      "level": 631
-                    },
-                    {
-                      "name": "冬ステラ",
-                      "attribute": "翠",
-                      "level": 631
-                    },
-                    {
-                      "name": "ユルディズ",
-                      "attribute": "翠",
-                      "level": 631
-                    },
-                    {
-                      "name": "イディーネ",
-                      "attribute": "翠",
-                      "level": 631
-                    }
-                  ]
-                }
-              ]
+              "members": []
             },
             {
               "id": "1101-546457164101",
@@ -95280,6 +95271,40 @@
                 },
                 {
                   "rank": 2,
+                  "name": "ほりにし☆あくあ",
+                  "power": 1155293454,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "ミラ",
+                      "attribute": "翠",
+                      "level": 631
+                    },
+                    {
+                      "name": "ポーラ",
+                      "attribute": "翠",
+                      "level": 631
+                    },
+                    {
+                      "name": "冬ステラ",
+                      "attribute": "翠",
+                      "level": 631
+                    },
+                    {
+                      "name": "ユルディズ",
+                      "attribute": "翠",
+                      "level": 631
+                    },
+                    {
+                      "name": "イディーネ",
+                      "attribute": "翠",
+                      "level": 631
+                    }
+                  ]
+                },
+                {
+                  "rank": 3,
                   "name": "たか",
                   "power": 852338972,
                   "role": "ギルド",
@@ -95287,7 +95312,7 @@
                   "party": null
                 },
                 {
-                  "rank": 3,
+                  "rank": 4,
                   "name": "釈迦如来",
                   "power": 793394709,
                   "role": "ギルド",
@@ -95295,7 +95320,7 @@
                   "party": null
                 },
                 {
-                  "rank": 4,
+                  "rank": 5,
                   "name": "ゆるれ",
                   "power": 638339188,
                   "role": "ギルド",
@@ -95604,7 +95629,7 @@
                 {
                   "rank": 11,
                   "name": "kazu",
-                  "power": 596577842,
+                  "power": 596597033,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -95830,7 +95855,7 @@
                 {
                   "rank": 7,
                   "name": "アロセニョリータ",
-                  "power": 680265571,
+                  "power": 682346639,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -96806,7 +96831,7 @@
                 {
                   "rank": 1,
                   "name": "Keik0",
-                  "power": 601451991,
+                  "power": 601454991,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -98157,7 +98182,7 @@
                 {
                   "rank": 1,
                   "name": "ちゃみー",
-                  "power": 1538853305,
+                  "power": 1538873748,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -98763,7 +98788,7 @@
                 {
                   "rank": 1,
                   "name": "森の民",
-                  "power": 456997861,
+                  "power": 457890174,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -99547,7 +99572,7 @@
                 {
                   "rank": 5,
                   "name": "ポケット中のれめちゃ",
-                  "power": 480584820,
+                  "power": 480599767,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -100277,7 +100302,7 @@
                 {
                   "rank": 13,
                   "name": "めぐみるくてぃ",
-                  "power": 562794490,
+                  "power": 562874212,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -100675,7 +100700,7 @@
             },
             {
               "id": "1093-688517459093",
-              "name": "もちもち餅ランド",
+              "name": "わんにゃん大好き",
               "rank": 28,
               "power": 10361329031,
               "members": [
@@ -101643,7 +101668,7 @@
                 {
                   "rank": 4,
                   "name": "バニ♡バリーリバー♡",
-                  "power": 681541933,
+                  "power": 681542753,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -102083,22 +102108,6 @@
                 },
                 {
                   "rank": 5,
-                  "name": "ル〜ナ",
-                  "power": 662436306,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 6,
-                  "name": "ノノ",
-                  "power": 613705284,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 7,
                   "name": "アスカ",
                   "power": 577300084,
                   "role": "ギルド",
@@ -102437,6 +102446,82 @@
                 },
                 {
                   "rank": 4,
+                  "name": "いちか",
+                  "power": 921845504,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "花束ナターシャ",
+                      "attribute": "冥",
+                      "level": 610
+                    },
+                    {
+                      "name": "神呪イリア",
+                      "attribute": "冥",
+                      "level": 610
+                    },
+                    {
+                      "name": "パラデア",
+                      "attribute": "冥",
+                      "level": 610
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 610
+                    },
+                    {
+                      "name": "カグヤ",
+                      "attribute": "冥",
+                      "level": 610
+                    }
+                  ]
+                },
+                {
+                  "rank": 5,
+                  "name": "sylphy",
+                  "power": 839132385,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "パラデア",
+                      "attribute": "冥",
+                      "level": 591
+                    },
+                    {
+                      "name": "花束ナターシャ",
+                      "attribute": "冥",
+                      "level": 591
+                    },
+                    {
+                      "name": "ルナリンド",
+                      "attribute": "冥",
+                      "level": 591
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 591
+                    },
+                    {
+                      "name": "神呪イリア",
+                      "attribute": "冥",
+                      "level": 591
+                    }
+                  ]
+                },
+                {
+                  "rank": 6,
+                  "name": "ル〜ナ",
+                  "power": 662436306,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 7,
                   "name": "ザレ猫",
                   "power": 626565413,
                   "role": "ギルド",
@@ -102470,7 +102555,7 @@
                   ]
                 },
                 {
-                  "rank": 5,
+                  "rank": 8,
                   "name": "ふわわ",
                   "power": 611283376,
                   "role": "ギルド",
@@ -102478,7 +102563,23 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 9,
+                  "name": "てんてん",
+                  "power": 562329596,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 10,
+                  "name": "咲人",
+                  "power": 548517316,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 11,
                   "name": "くるぶしおれたろー",
                   "power": 531318728,
                   "role": "ギルド",
@@ -102486,7 +102587,7 @@
                   "party": null
                 },
                 {
-                  "rank": 7,
+                  "rank": 12,
                   "name": "ゆらら",
                   "power": 519615164,
                   "role": "ギルド",
@@ -102637,40 +102738,6 @@
                 },
                 {
                   "rank": 4,
-                  "name": "ポラリス",
-                  "power": 870781441,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "レジーナ",
-                      "attribute": "冥",
-                      "level": 595
-                    },
-                    {
-                      "name": "宝物ケルベロス",
-                      "attribute": "冥",
-                      "level": 595
-                    },
-                    {
-                      "name": "ルナリンド",
-                      "attribute": "冥",
-                      "level": 595
-                    },
-                    {
-                      "name": "アーティ",
-                      "attribute": "紅",
-                      "level": 595
-                    },
-                    {
-                      "name": "エレイン",
-                      "attribute": "冥",
-                      "level": 595
-                    }
-                  ]
-                },
-                {
-                  "rank": 5,
                   "name": "ヤッテモーター",
                   "power": 847239524,
                   "role": "ギルド",
@@ -102704,7 +102771,7 @@
                   ]
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "アキ",
                   "power": 776879260,
                   "role": "ギルド",
@@ -102738,7 +102805,7 @@
                   ]
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "ろぐ",
                   "power": 774935458,
                   "role": "ギルド",
@@ -102772,7 +102839,7 @@
                   ]
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "わんちゃん",
                   "power": 691948417,
                   "role": "ギルド",
@@ -102780,7 +102847,7 @@
                   "party": null
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "ちょこばにら",
                   "power": 670092652,
                   "role": "ギルド",
@@ -102788,7 +102855,7 @@
                   "party": null
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "へ",
                   "power": 627901726,
                   "role": "ギルド",
@@ -102796,7 +102863,7 @@
                   "party": null
                 },
                 {
-                  "rank": 11,
+                  "rank": 10,
                   "name": "ももる",
                   "power": 600155221,
                   "role": "ギルド",
@@ -102804,7 +102871,7 @@
                   "party": null
                 },
                 {
-                  "rank": 12,
+                  "rank": 11,
                   "name": "あ～たたたたかぺ",
                   "power": 590525110,
                   "role": "ギルド",
@@ -102812,7 +102879,7 @@
                   "party": null
                 },
                 {
-                  "rank": 13,
+                  "rank": 12,
                   "name": "カイン",
                   "power": 572277471,
                   "role": "ギルド",
@@ -102830,7 +102897,7 @@
                 {
                   "rank": 1,
                   "name": "あへ単ゆき",
-                  "power": 1886418491,
+                  "power": 1886438589,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -103570,7 +103637,7 @@
                 {
                   "rank": 4,
                   "name": "ユマ・レオンハート",
-                  "power": 910594587,
+                  "power": 910611777,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -103678,7 +103745,7 @@
                 {
                   "rank": 11,
                   "name": "ミヤイーツは届かない",
-                  "power": 514527654,
+                  "power": 514842019,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -104328,7 +104395,7 @@
                 {
                   "rank": 2,
                   "name": "オル",
-                  "power": 737835224,
+                  "power": 743613649,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -104443,40 +104510,6 @@
               "members": [
                 {
                   "rank": 1,
-                  "name": "yu",
-                  "power": 1126670004,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "ルスティカ",
-                      "attribute": "黄",
-                      "level": 630
-                    },
-                    {
-                      "name": "ポプリ",
-                      "attribute": "黄",
-                      "level": 630
-                    },
-                    {
-                      "name": "モワノー",
-                      "attribute": "黄",
-                      "level": 630
-                    },
-                    {
-                      "name": "ルサールカ",
-                      "attribute": "天",
-                      "level": 630
-                    },
-                    {
-                      "name": "タマ",
-                      "attribute": "黄",
-                      "level": 630
-                    }
-                  ]
-                },
-                {
-                  "rank": 2,
                   "name": "仔トラ",
                   "power": 653994887,
                   "role": "ギルド",
@@ -104484,7 +104517,7 @@
                   "party": null
                 },
                 {
-                  "rank": 3,
+                  "rank": 2,
                   "name": "脱・プリンスパツパツ",
                   "power": 607793297,
                   "role": "ギルド",
@@ -104518,7 +104551,7 @@
                   ]
                 },
                 {
-                  "rank": 4,
+                  "rank": 3,
                   "name": "葵",
                   "power": 574851522,
                   "role": "ギルド",
@@ -104526,7 +104559,7 @@
                   "party": null
                 },
                 {
-                  "rank": 5,
+                  "rank": 4,
                   "name": "なっくむ",
                   "power": 461332506,
                   "role": "ギルドマスター",
@@ -104534,7 +104567,7 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "キー",
                   "power": 457452383,
                   "role": "ギルド",
@@ -104542,7 +104575,7 @@
                   "party": null
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "かっつぉ",
                   "power": 429803501,
                   "role": "ギルド",
@@ -104550,7 +104583,7 @@
                   "party": null
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "溶けリル",
                   "power": 426905821,
                   "role": "ギルド",
@@ -104558,7 +104591,7 @@
                   "party": null
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "改名禁断症状べるさん",
                   "power": 406095093,
                   "role": "ギルド",
@@ -104796,7 +104829,7 @@
                 {
                   "rank": 9,
                   "name": "よーへー",
-                  "power": 477196519,
+                  "power": 477197419,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -105497,6 +105530,14 @@
                 },
                 {
                   "rank": 7,
+                  "name": "lakisis",
+                  "power": 390044831,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 8,
                   "name": "だんぞう(脳筋４号)",
                   "power": 386452769,
                   "role": "ギルド",
@@ -105704,14 +105745,6 @@
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
-                },
-                {
-                  "rank": 9,
-                  "name": "なおぴょん",
-                  "power": 384907405,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
                 }
               ]
             },
@@ -105910,7 +105943,7 @@
                 {
                   "rank": 8,
                   "name": "ギャル",
-                  "power": 427601552,
+                  "power": 427727558,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -106200,7 +106233,7 @@
                 {
                   "rank": 6,
                   "name": "名無しの劣等者",
-                  "power": 392899721,
+                  "power": 393574056,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -106304,7 +106337,7 @@
                 {
                   "rank": 1,
                   "name": "彼岸花",
-                  "power": 432878581,
+                  "power": 432881101,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -106869,7 +106902,7 @@
                 {
                   "rank": 7,
                   "name": "らぴ",
-                  "power": 314507279,
+                  "power": 314791285,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -107011,7 +107044,7 @@
                 {
                   "rank": 6,
                   "name": "ごりら",
-                  "power": 311716973,
+                  "power": 312111986,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -107578,40 +107611,6 @@
                 },
                 {
                   "rank": 12,
-                  "name": "甘えん坊将軍にぃ",
-                  "power": 525545886,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "アーティ",
-                      "attribute": "紅",
-                      "level": 490
-                    },
-                    {
-                      "name": "フィアー",
-                      "attribute": "翠",
-                      "level": 490
-                    },
-                    {
-                      "name": "パラデア",
-                      "attribute": "冥",
-                      "level": 490
-                    },
-                    {
-                      "name": "宝物ケルベロス",
-                      "attribute": "冥",
-                      "level": 490
-                    },
-                    {
-                      "name": "カグヤ",
-                      "attribute": "冥",
-                      "level": 490
-                    }
-                  ]
-                },
-                {
-                  "rank": 13,
                   "name": "コノキ",
                   "power": 472986167,
                   "role": "ギルド",
@@ -107619,7 +107618,7 @@
                   "party": null
                 },
                 {
-                  "rank": 14,
+                  "rank": 13,
                   "name": "a",
                   "power": 439003014,
                   "role": "ギルド",
@@ -107982,6 +107981,40 @@
                       "name": "制服Ａ.Ａ.",
                       "attribute": "天",
                       "level": 737
+                    }
+                  ]
+                },
+                {
+                  "rank": 2,
+                  "name": "甘えん坊将軍にぃ",
+                  "power": 525545886,
+                  "role": "ギルドマスター",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "アーティ",
+                      "attribute": "紅",
+                      "level": 490
+                    },
+                    {
+                      "name": "フィアー",
+                      "attribute": "翠",
+                      "level": 490
+                    },
+                    {
+                      "name": "パラデア",
+                      "attribute": "冥",
+                      "level": 490
+                    },
+                    {
+                      "name": "宝物ケルベロス",
+                      "attribute": "冥",
+                      "level": 490
+                    },
+                    {
+                      "name": "カグヤ",
+                      "attribute": "冥",
+                      "level": 490
                     }
                   ]
                 }
@@ -108442,7 +108475,7 @@
                 {
                   "rank": 7,
                   "name": "きくり",
-                  "power": 688425259,
+                  "power": 689474173,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -108985,7 +109018,7 @@
                 },
                 {
                   "rank": 4,
-                  "name": "スーパージジィ",
+                  "name": "スーパーカブ",
                   "power": 497014905,
                   "role": "ギルド",
                   "status": "unknown",
@@ -110448,7 +110481,7 @@
                 {
                   "rank": 11,
                   "name": "みすき",
-                  "power": 455041322,
+                  "power": 455052882,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -110600,7 +110633,7 @@
                 {
                   "rank": 5,
                   "name": "さんほ。",
-                  "power": 514757538,
+                  "power": 514772449,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -110740,7 +110773,7 @@
                 {
                   "rank": 4,
                   "name": "s",
-                  "power": 505276071,
+                  "power": 505294873,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -111322,7 +111355,7 @@
                 {
                   "rank": 12,
                   "name": "アヤセ",
-                  "power": 474148077,
+                  "power": 474149277,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -111554,7 +111587,7 @@
                 {
                   "rank": 8,
                   "name": "UNKONOW",
-                  "power": 485279734,
+                  "power": 485373198,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -111594,7 +111627,7 @@
                 {
                   "rank": 1,
                   "name": "ゆきの",
-                  "power": 640903789,
+                  "power": 640922622,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -112236,40 +112269,6 @@
                 },
                 {
                   "rank": 2,
-                  "name": "もつ",
-                  "power": 656134734,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "モルガナ",
-                      "attribute": "紅",
-                      "level": 490
-                    },
-                    {
-                      "name": "ルシール",
-                      "attribute": "紅",
-                      "level": 490
-                    },
-                    {
-                      "name": "グィネヴィア",
-                      "attribute": "紅",
-                      "level": 490
-                    },
-                    {
-                      "name": "アルトリア",
-                      "attribute": "紅",
-                      "level": 490
-                    },
-                    {
-                      "name": "アーティ",
-                      "attribute": "紅",
-                      "level": 490
-                    }
-                  ]
-                },
-                {
-                  "rank": 3,
                   "name": "霞　綾乃",
                   "power": 552829314,
                   "role": "ギルド",
@@ -112303,7 +112302,7 @@
                   ]
                 },
                 {
-                  "rank": 4,
+                  "rank": 3,
                   "name": "༺クシナ༻",
                   "power": 494333513,
                   "role": "ギルド",
@@ -112311,7 +112310,7 @@
                   "party": null
                 },
                 {
-                  "rank": 5,
+                  "rank": 4,
                   "name": "くるくるるる",
                   "power": 410785907,
                   "role": "ギルド",
@@ -112319,7 +112318,7 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "ちょび",
                   "power": 400649568,
                   "role": "ギルド",
@@ -112367,14 +112366,6 @@
                       "level": 485
                     }
                   ]
-                },
-                {
-                  "rank": 2,
-                  "name": "チョコちゃん",
-                  "power": 481229109,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
                 }
               ]
             },
@@ -112823,7 +112814,7 @@
                 {
                   "rank": 1,
                   "name": "グミタロ",
-                  "power": 1048607910,
+                  "power": 1048627623,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -115899,7 +115890,7 @@
                 {
                   "rank": 10,
                   "name": "ʕ•ᴥ•ʔま",
-                  "power": 455802276,
+                  "power": 455820843,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -116649,7 +116640,7 @@
                 {
                   "rank": 4,
                   "name": "とし",
-                  "power": 758005537,
+                  "power": 758007037,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -116916,74 +116907,6 @@
                 },
                 {
                   "rank": 4,
-                  "name": "断頭台のミーア。",
-                  "power": 677016252,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "ミラ",
-                      "attribute": "翠",
-                      "level": 520
-                    },
-                    {
-                      "name": "イディーネ",
-                      "attribute": "翠",
-                      "level": 520
-                    },
-                    {
-                      "name": "冬ステラ",
-                      "attribute": "翠",
-                      "level": 520
-                    },
-                    {
-                      "name": "コベル",
-                      "attribute": "翠",
-                      "level": 520
-                    },
-                    {
-                      "name": "ユルディズ",
-                      "attribute": "翠",
-                      "level": 520
-                    }
-                  ]
-                },
-                {
-                  "rank": 5,
-                  "name": "けいたーゆ",
-                  "power": 633850207,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "団長コルディ",
-                      "attribute": "藍",
-                      "level": 495
-                    },
-                    {
-                      "name": "エヴリン",
-                      "attribute": "藍",
-                      "level": 495
-                    },
-                    {
-                      "name": "面影フィアー",
-                      "attribute": "藍",
-                      "level": 495
-                    },
-                    {
-                      "name": "夏プリマヴェーラ",
-                      "attribute": "藍",
-                      "level": 495
-                    },
-                    {
-                      "name": "冬マーリン",
-                      "attribute": "藍",
-                      "level": 495
-                    }
-                  ]
-                },
-                {
-                  "rank": 6,
                   "name": "のぴぴ",
                   "power": 553970683,
                   "role": "ギルド",
@@ -116991,7 +116914,7 @@
                   "party": null
                 },
                 {
-                  "rank": 7,
+                  "rank": 5,
                   "name": "ゆーたん",
                   "power": 519448644,
                   "role": "ギルド",
@@ -116999,7 +116922,7 @@
                   "party": null
                 },
                 {
-                  "rank": 8,
+                  "rank": 6,
                   "name": "えすぴーわい",
                   "power": 514724107,
                   "role": "ギルド",
@@ -117007,7 +116930,7 @@
                   "party": null
                 },
                 {
-                  "rank": 9,
+                  "rank": 7,
                   "name": "ポリプ～",
                   "power": 486540986,
                   "role": "ギルド",
@@ -117015,7 +116938,7 @@
                   "party": null
                 },
                 {
-                  "rank": 10,
+                  "rank": 8,
                   "name": "白",
                   "power": 450300735,
                   "role": "ギルド",
@@ -117192,6 +117115,40 @@
                 },
                 {
                   "rank": 4,
+                  "name": "けいたーゆ",
+                  "power": 633850207,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": [
+                    {
+                      "name": "団長コルディ",
+                      "attribute": "藍",
+                      "level": 495
+                    },
+                    {
+                      "name": "エヴリン",
+                      "attribute": "藍",
+                      "level": 495
+                    },
+                    {
+                      "name": "面影フィアー",
+                      "attribute": "藍",
+                      "level": 495
+                    },
+                    {
+                      "name": "夏プリマヴェーラ",
+                      "attribute": "藍",
+                      "level": 495
+                    },
+                    {
+                      "name": "冬マーリン",
+                      "attribute": "藍",
+                      "level": 495
+                    }
+                  ]
+                },
+                {
+                  "rank": 5,
                   "name": "ワーコ・ウー",
                   "power": 537072859,
                   "role": "ギルド",
@@ -117199,7 +117156,7 @@
                   "party": null
                 },
                 {
-                  "rank": 5,
+                  "rank": 6,
                   "name": "大教祖アレン様",
                   "power": 484694692,
                   "role": "ギルド",
@@ -117207,7 +117164,7 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 7,
                   "name": "アンダーナイン",
                   "power": 451313964,
                   "role": "ギルド",
@@ -118424,7 +118381,7 @@
                 {
                   "rank": 2,
                   "name": "泥人形ヘッポコ",
-                  "power": 1069928361,
+                  "power": 1070002573,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -118743,7 +118700,7 @@
                 {
                   "rank": 3,
                   "name": "フレンチクルーラー",
-                  "power": 750793635,
+                  "power": 750850029,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -118927,7 +118884,7 @@
                 {
                   "rank": 1,
                   "name": "ぽんたろう",
-                  "power": 425957983,
+                  "power": 426300003,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -119541,7 +119498,7 @@
                 {
                   "rank": 4,
                   "name": "ヤク漬けのぴのぴの",
-                  "power": 747991519,
+                  "power": 748116124,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -119969,7 +119926,7 @@
                 {
                   "rank": 2,
                   "name": "【伝説的寝坊之王】",
-                  "power": 1040842398,
+                  "power": 1041029902,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -120184,7 +120141,7 @@
                 {
                   "rank": 5,
                   "name": "コブレッティ",
-                  "power": 413752611,
+                  "power": 413803679,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -121049,7 +121006,7 @@
                 {
                   "rank": 4,
                   "name": "ST☆R★彡",
-                  "power": 424527260,
+                  "power": 424528816,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -121073,7 +121030,7 @@
                 {
                   "rank": 2,
                   "name": "おもち零式",
-                  "power": 495714625,
+                  "power": 495715675,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -121163,7 +121120,7 @@
                 {
                   "rank": 2,
                   "name": "ガンマ",
-                  "power": 399429075,
+                  "power": 400829958,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -121433,7 +121390,7 @@
                 {
                   "rank": 2,
                   "name": "ともてぃ",
-                  "power": 1266150323,
+                  "power": 1266310887,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -121897,14 +121854,6 @@
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
-                },
-                {
-                  "rank": 11,
-                  "name": "魔法少女ママてぃ",
-                  "power": 410784691,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
                 }
               ]
             },
@@ -121951,7 +121900,7 @@
                 {
                   "rank": 2,
                   "name": "夏ぽよω",
-                  "power": 691125120,
+                  "power": 691131120,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -122144,6 +122093,14 @@
                 },
                 {
                   "rank": 10,
+                  "name": "新プレイヤーは仮の名",
+                  "power": 418308727,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 11,
                   "name": "M",
                   "power": 416638146,
                   "role": "ギルド",
@@ -123004,7 +122961,7 @@
                 {
                   "rank": 3,
                   "name": "メガネ",
-                  "power": 554056524,
+                  "power": 554061413,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -123291,7 +123248,7 @@
                 {
                   "rank": 5,
                   "name": "Pan",
-                  "power": 530753229,
+                  "power": 530806139,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -123383,7 +123340,7 @@
                 {
                   "rank": 4,
                   "name": "やきにく",
-                  "power": 710366611,
+                  "power": 710421029,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -123391,7 +123348,7 @@
                 {
                   "rank": 5,
                   "name": "cron",
-                  "power": 490775104,
+                  "power": 490838261,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -123557,7 +123514,7 @@
                 {
                   "rank": 6,
                   "name": "ぱかみち",
-                  "power": 495056856,
+                  "power": 495075744,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -124033,7 +123990,7 @@
                 {
                   "rank": 1,
                   "name": "シンゴ",
-                  "power": 456799096,
+                  "power": 466787650,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -124455,7 +124412,7 @@
                 {
                   "rank": 5,
                   "name": "テラ王",
-                  "power": 576963488,
+                  "power": 578505316,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -124605,7 +124562,7 @@
                 {
                   "rank": 4,
                   "name": "ゼノン",
-                  "power": 707514429,
+                  "power": 708076019,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -125282,7 +125239,7 @@
                 {
                   "rank": 12,
                   "name": "マミマミ",
-                  "power": 376359108,
+                  "power": 376410861,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -125382,7 +125339,7 @@
                 {
                   "rank": 4,
                   "name": "居酒屋魚裕",
-                  "power": 412727061,
+                  "power": 413388416,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -126316,17 +126273,17 @@
                 },
                 {
                   "rank": 3,
-                  "name": "なっつ",
-                  "power": 452898222,
-                  "role": "ギルド",
+                  "name": "ZAQ",
+                  "power": 464226528,
+                  "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
                 },
                 {
                   "rank": 4,
-                  "name": "ZAQ",
-                  "power": 450977674,
-                  "role": "ギルドマスター",
+                  "name": "なっつ",
+                  "power": 452898222,
+                  "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 },
@@ -126616,14 +126573,6 @@
                 },
                 {
                   "rank": 4,
-                  "name": "リハーサル",
-                  "power": 475231376,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 5,
                   "name": "なご",
                   "power": 456450449,
                   "role": "ギルド",
@@ -126631,7 +126580,7 @@
                   "party": null
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "しじみ",
                   "power": 425109927,
                   "role": "ギルド",
@@ -126639,7 +126588,7 @@
                   "party": null
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "まろにゃ",
                   "power": 418041952,
                   "role": "ギルドマスター",
@@ -128280,7 +128229,7 @@
                 {
                   "rank": 5,
                   "name": "博美犬♡まろわんわん",
-                  "power": 725557878,
+                  "power": 725573075,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -128330,7 +128279,7 @@
                 {
                   "rank": 8,
                   "name": "ヤシノスケ",
-                  "power": 515265278,
+                  "power": 515268260,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -128552,7 +128501,7 @@
                 {
                   "rank": 1,
                   "name": "とろける　銀ちょこ",
-                  "power": 465251300,
+                  "power": 466402011,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -128986,7 +128935,7 @@
                 {
                   "rank": 1,
                   "name": "ビクボーンステーキ",
-                  "power": 722861530,
+                  "power": 722939884,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -129020,7 +128969,7 @@
                 {
                   "rank": 2,
                   "name": "ヨッシー",
-                  "power": 450536407,
+                  "power": 450551011,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -129542,7 +129491,7 @@
                 {
                   "rank": 1,
                   "name": "ミナツキー",
-                  "power": 520570942,
+                  "power": 520640998,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -129736,7 +129685,7 @@
                 {
                   "rank": 6,
                   "name": "ちゃかぼ",
-                  "power": 474905053,
+                  "power": 474909038,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -130665,7 +130614,7 @@
                 {
                   "rank": 9,
                   "name": "きゅうり",
-                  "power": 516776652,
+                  "power": 516795701,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -130697,7 +130646,7 @@
                 {
                   "rank": 13,
                   "name": "わと",
-                  "power": 467568595,
+                  "power": 467571595,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -130815,7 +130764,7 @@
                 {
                   "rank": 4,
                   "name": "ヒヤ",
-                  "power": 472263024,
+                  "power": 473817961,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -131157,7 +131106,7 @@
                 {
                   "rank": 4,
                   "name": "おたのしみもみぢ",
-                  "power": 460645688,
+                  "power": 460836475,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -131968,7 +131917,7 @@
                 {
                   "rank": 5,
                   "name": "キュアハヤっち卍",
-                  "power": 374924463,
+                  "power": 374992690,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -132026,7 +131975,7 @@
                 {
                   "rank": 3,
                   "name": "しゅがれっとティビス",
-                  "power": 415231906,
+                  "power": 415284521,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -132572,7 +132521,7 @@
                 {
                   "rank": 7,
                   "name": "シンダラ",
-                  "power": 514885030,
+                  "power": 514952919,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -132882,7 +132831,7 @@
                 {
                   "rank": 10,
                   "name": "新プレイヤー",
-                  "power": 315588639,
+                  "power": 315634060,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -133311,7 +133260,7 @@
                 {
                   "rank": 4,
                   "name": "AKIHICO",
-                  "power": 483820058,
+                  "power": 483844242,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -133997,7 +133946,7 @@
                 {
                   "rank": 2,
                   "name": "ユウマ",
-                  "power": 306928914,
+                  "power": 306939105,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -134517,7 +134466,7 @@
                 {
                   "rank": 10,
                   "name": "大筒木チベスナ",
-                  "power": 305657903,
+                  "power": 305686825,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -134783,7 +134732,7 @@
                 {
                   "rank": 5,
                   "name": "静かに過ごするくれ",
-                  "power": 324544659,
+                  "power": 324742503,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -135119,7 +135068,7 @@
                 {
                   "rank": 6,
                   "name": "シャロ。",
-                  "power": 370444093,
+                  "power": 371008311,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -135210,7 +135159,7 @@
                 {
                   "rank": 2,
                   "name": "穴多のあーなるでぇす",
-                  "power": 502422845,
+                  "power": 503159787,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -135530,7 +135479,7 @@
                 {
                   "rank": 1,
                   "name": "ザナルカンド",
-                  "power": 246637250,
+                  "power": 246691288,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -135843,35 +135792,6 @@
               "members": [
                 {
                   "rank": 1,
-                  "name": "まるん",
-                  "power": 1010384737,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "ルナリンド",
-                      "attribute": "冥",
-                      "level": 658
-                    },
-                    {
-                      "name": "宝物ケルベロス",
-                      "attribute": "冥",
-                      "level": 658
-                    },
-                    {
-                      "name": "花束ナターシャ",
-                      "attribute": "冥",
-                      "level": 658
-                    },
-                    {
-                      "name": "神呪イリア",
-                      "attribute": "冥",
-                      "level": 658
-                    }
-                  ]
-                },
-                {
-                  "rank": 2,
                   "name": "暗黒破壊神",
                   "power": 362096776,
                   "role": "ギルドマスター",
@@ -135879,7 +135799,7 @@
                   "party": null
                 },
                 {
-                  "rank": 3,
+                  "rank": 2,
                   "name": "いるぴー",
                   "power": 291017663,
                   "role": "ギルド",
@@ -135887,7 +135807,7 @@
                   "party": null
                 },
                 {
-                  "rank": 4,
+                  "rank": 3,
                   "name": "S217",
                   "power": 267588651,
                   "role": "ギルド",
@@ -136269,7 +136189,7 @@
                 {
                   "rank": 6,
                   "name": "Cso",
-                  "power": 267936204,
+                  "power": 268029102,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -136277,7 +136197,7 @@
                 {
                   "rank": 7,
                   "name": "myaoon",
-                  "power": 258852628,
+                  "power": 258878576,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -136653,7 +136573,7 @@
                 {
                   "rank": 1,
                   "name": "ワタル",
-                  "power": 500274518,
+                  "power": 500321620,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": [
@@ -136859,7 +136779,7 @@
                 {
                   "rank": 1,
                   "name": "めいむ",
-                  "power": 460444317,
+                  "power": 460934349,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -137778,7 +137698,7 @@
                 {
                   "rank": 3,
                   "name": "シイル",
-                  "power": 254999233,
+                  "power": 256373392,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -137794,7 +137714,7 @@
                 {
                   "rank": 1,
                   "name": "ぽいかつ",
-                  "power": 287209165,
+                  "power": 287261733,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -138271,7 +138191,7 @@
                 {
                   "rank": 7,
                   "name": "ミニラッキー",
-                  "power": 409789837,
+                  "power": 409860393,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -138279,7 +138199,7 @@
                 {
                   "rank": 8,
                   "name": "タチバナ",
-                  "power": 404433063,
+                  "power": 404451464,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -138329,7 +138249,7 @@
                 {
                   "rank": 11,
                   "name": "ブライト艦長",
-                  "power": 371001382,
+                  "power": 371004217,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -138377,7 +138297,7 @@
                 {
                   "rank": 17,
                   "name": "とん",
-                  "power": 283376705,
+                  "power": 283391895,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -138717,7 +138637,7 @@
                 {
                   "rank": 10,
                   "name": "鼻炎の襟",
-                  "power": 283781017,
+                  "power": 283789815,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -138781,7 +138701,7 @@
                 {
                   "rank": 2,
                   "name": "ふわふわふとん",
-                  "power": 279020824,
+                  "power": 279174584,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -139380,7 +139300,7 @@
                 {
                   "rank": 5,
                   "name": "Nyankoke",
-                  "power": 230836567,
+                  "power": 231517279,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -139436,7 +139356,7 @@
                 {
                   "rank": 2,
                   "name": "マートン",
-                  "power": 211337490,
+                  "power": 211338768,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -139610,7 +139530,7 @@
                 {
                   "rank": 4,
                   "name": "にゃんん。",
-                  "power": 626361026,
+                  "power": 626376102,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -139720,7 +139640,7 @@
                 {
                   "rank": 8,
                   "name": "MarkN",
-                  "power": 484869362,
+                  "power": 484970604,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -140991,7 +140911,7 @@
                 {
                   "rank": 4,
                   "name": "せつら",
-                  "power": 537415943,
+                  "power": 537434331,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -141213,7 +141133,7 @@
                 {
                   "rank": 1,
                   "name": "风行者༄凧༄",
-                  "power": 360480741,
+                  "power": 360499307,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -141237,7 +141157,7 @@
                 {
                   "rank": 4,
                   "name": "✧へいミズ✧",
-                  "power": 275551590,
+                  "power": 275639479,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -141454,7 +141374,7 @@
                 {
                   "rank": 3,
                   "name": "叔父さん×山田♡",
-                  "power": 622627806,
+                  "power": 622646342,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -141976,7 +141896,7 @@
                 {
                   "rank": 1,
                   "name": "クリス",
-                  "power": 349939219,
+                  "power": 351197927,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -142118,7 +142038,7 @@
                 {
                   "rank": 1,
                   "name": "瑪瑙",
-                  "power": 1344400163,
+                  "power": 1358263986,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -142512,7 +142432,7 @@
                 {
                   "rank": 6,
                   "name": "めいびー",
-                  "power": 354531170,
+                  "power": 354548493,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -142568,7 +142488,7 @@
                 {
                   "rank": 1,
                   "name": "たいのすがたにぃ",
-                  "power": 380701784,
+                  "power": 380703164,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -142609,14 +142529,6 @@
                   "rank": 2,
                   "name": "そら",
                   "power": 239735011,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 3,
-                  "name": "AUGE",
-                  "power": 215012961,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -142837,7 +142749,16 @@
               "name": "BlazeCat",
               "rank": 46,
               "power": 3040935085,
-              "members": []
+              "members": [
+                {
+                  "rank": 1,
+                  "name": "ミーチャ",
+                  "power": 228741393,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                }
+              ]
             }
           ]
         }
@@ -143223,7 +143144,7 @@
                   "rank": 6,
                   "name": "イチ",
                   "power": 337777800,
-                  "role": "ギルド",
+                  "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
                 },
@@ -144604,7 +144525,7 @@
                 {
                   "rank": 3,
                   "name": "徒華",
-                  "power": 644040615,
+                  "power": 645174767,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -144865,7 +144786,7 @@
             },
             {
               "id": "1155-389106299155",
-              "name": "あのまり1周年感謝♡",
+              "name": "ANO໒꒱MALY",
               "rank": 2,
               "power": 12227180773,
               "members": [
@@ -145248,7 +145169,7 @@
                 {
                   "rank": 9,
                   "name": "Code-紫陽花໒꒱",
-                  "power": 290669862,
+                  "power": 292419342,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -146008,7 +145929,7 @@
                 {
                   "rank": 1,
                   "name": "へるぷ",
-                  "power": 298277045,
+                  "power": 298602670,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -146146,7 +146067,7 @@
                 {
                   "rank": 3,
                   "name": "チューバッカ",
-                  "power": 594594861,
+                  "power": 594649862,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -146348,7 +146269,7 @@
                 {
                   "rank": 4,
                   "name": "空の奇跡",
-                  "power": 442308010,
+                  "power": 442502092,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -146388,7 +146309,7 @@
                 {
                   "rank": 1,
                   "name": "アルテミス",
-                  "power": 974112032,
+                  "power": 978769264,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -146714,7 +146635,7 @@
                 {
                   "rank": 3,
                   "name": "りとのちねこ",
-                  "power": 465976930,
+                  "power": 466986781,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -146846,7 +146767,7 @@
                 {
                   "rank": 3,
                   "name": "✟✟ せかんど ✟✟",
-                  "power": 565091198,
+                  "power": 565145821,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -147245,7 +147166,7 @@
                 {
                   "rank": 4,
                   "name": "なべぞー",
-                  "power": 491743670,
+                  "power": 491761591,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -147749,40 +147670,6 @@
                 },
                 {
                   "rank": 4,
-                  "name": "kai",
-                  "power": 481870419,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": [
-                    {
-                      "name": "リリー",
-                      "attribute": "天",
-                      "level": 491
-                    },
-                    {
-                      "name": "面影フィアー",
-                      "attribute": "藍",
-                      "level": 491
-                    },
-                    {
-                      "name": "シヴィ",
-                      "attribute": "藍",
-                      "level": 491
-                    },
-                    {
-                      "name": "エヴリン",
-                      "attribute": "藍",
-                      "level": 491
-                    },
-                    {
-                      "name": "夏プリマヴェーラ",
-                      "attribute": "藍",
-                      "level": 491
-                    }
-                  ]
-                },
-                {
-                  "rank": 5,
                   "name": "アシアナ",
                   "power": 448768267,
                   "role": "ギルド",
@@ -147816,7 +147703,7 @@
                   ]
                 },
                 {
-                  "rank": 6,
+                  "rank": 5,
                   "name": "むぅもっちゅりん",
                   "power": 424647336,
                   "role": "ギルド",
@@ -147850,7 +147737,7 @@
                   ]
                 },
                 {
-                  "rank": 7,
+                  "rank": 6,
                   "name": "おはピクミン",
                   "power": 424421929,
                   "role": "ギルド",
@@ -147884,7 +147771,7 @@
                   ]
                 },
                 {
-                  "rank": 8,
+                  "rank": 7,
                   "name": "Green",
                   "power": 410502070,
                   "role": "ギルド",
@@ -147918,15 +147805,7 @@
                   ]
                 },
                 {
-                  "rank": 9,
-                  "name": "　　",
-                  "power": 410456109,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 10,
+                  "rank": 8,
                   "name": "黒龍仙人",
                   "power": 409420949,
                   "role": "ギルド",
@@ -147960,7 +147839,7 @@
                   ]
                 },
                 {
-                  "rank": 11,
+                  "rank": 9,
                   "name": "ハイリキ",
                   "power": 366369348,
                   "role": "ギルド",
@@ -147968,7 +147847,7 @@
                   "party": null
                 },
                 {
-                  "rank": 12,
+                  "rank": 10,
                   "name": "悪兎",
                   "power": 321828860,
                   "role": "ギルド",
@@ -147976,7 +147855,7 @@
                   "party": null
                 },
                 {
-                  "rank": 13,
+                  "rank": 11,
                   "name": "shuka1211",
                   "power": 311348342,
                   "role": "ギルド",
@@ -147984,15 +147863,7 @@
                   "party": null
                 },
                 {
-                  "rank": 14,
-                  "name": "レ",
-                  "power": 288432778,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 15,
+                  "rank": 12,
                   "name": "バツ丸",
                   "power": 282342153,
                   "role": "ギルド",
@@ -148000,15 +147871,7 @@
                   "party": null
                 },
                 {
-                  "rank": 16,
-                  "name": "炭痔郎",
-                  "power": 269482374,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 17,
+                  "rank": 13,
                   "name": "もすピクミン",
                   "power": 252328125,
                   "role": "ギルド",
@@ -149189,14 +149052,6 @@
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
-                },
-                {
-                  "rank": 13,
-                  "name": "さくら",
-                  "power": 215237769,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
                 }
               ]
             },
@@ -149389,7 +149244,7 @@
                 {
                   "rank": 4,
                   "name": "おり",
-                  "power": 284732990,
+                  "power": 284799333,
                   "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
@@ -149531,7 +149386,7 @@
                 {
                   "rank": 4,
                   "name": "鯛之守",
-                  "power": 495916142,
+                  "power": 495932042,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -149775,7 +149630,7 @@
                 {
                   "rank": 5,
                   "name": "ギムレット点滴",
-                  "power": 302015892,
+                  "power": 302080643,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -150670,7 +150525,7 @@
                 {
                   "rank": 2,
                   "name": "猫又",
-                  "power": 240054552,
+                  "power": 243442431,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -150710,7 +150565,7 @@
                 {
                   "rank": 2,
                   "name": "ぺろりん",
-                  "power": 281762503,
+                  "power": 282967949,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151108,7 +150963,7 @@
                 {
                   "rank": 14,
                   "name": "ミソラ",
-                  "power": 211483837,
+                  "power": 211519875,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151132,7 +150987,7 @@
                 {
                   "rank": 1,
                   "name": "すたん",
-                  "power": 371484315,
+                  "power": 371575713,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151428,7 +151283,7 @@
                 {
                   "rank": 4,
                   "name": "Noマニー",
-                  "power": 199306545,
+                  "power": 199452800,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151444,7 +151299,7 @@
                 {
                   "rank": 1,
                   "name": "EpArea(瑪瑙)",
-                  "power": 410107279,
+                  "power": 410117849,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": [
@@ -151757,7 +151612,7 @@
                 {
                   "rank": 4,
                   "name": "GO",
-                  "power": 306153534,
+                  "power": 306195925,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151781,7 +151636,7 @@
                 {
                   "rank": 7,
                   "name": "リプトン",
-                  "power": 192858595,
+                  "power": 194845055,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -151837,7 +151692,7 @@
                 {
                   "rank": 3,
                   "name": "メタモン",
-                  "power": 296465276,
+                  "power": 296569728,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -152316,7 +152171,7 @@
                 {
                   "rank": 4,
                   "name": "ゑびす",
-                  "power": 163401313,
+                  "power": 163418547,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -152404,7 +152259,7 @@
                 {
                   "rank": 3,
                   "name": "宮",
-                  "power": 159852305,
+                  "power": 159868552,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -152420,7 +152275,7 @@
                 {
                   "rank": 1,
                   "name": "コノハくん",
-                  "power": 219397761,
+                  "power": 219416060,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -152676,7 +152531,7 @@
                 {
                   "rank": 1,
                   "name": "狭霧",
-                  "power": 372686548,
+                  "power": 372796445,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -152740,7 +152595,7 @@
                 {
                   "rank": 1,
                   "name": "ニャース",
-                  "power": 241736771,
+                  "power": 241738115,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153042,7 +152897,7 @@
                 {
                   "rank": 2,
                   "name": "やまだお",
-                  "power": 152687854,
+                  "power": 152697768,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153133,7 +152988,7 @@
                 {
                   "rank": 2,
                   "name": "ボンD",
-                  "power": 372378396,
+                  "power": 393066194,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153148,17 +153003,17 @@
                 },
                 {
                   "rank": 4,
-                  "name": "なまたまご",
-                  "power": 215519582,
-                  "role": "ギルド",
+                  "name": "yuu",
+                  "power": 215637556,
+                  "role": "ギルドマスター",
                   "status": "unknown",
                   "party": null
                 },
                 {
                   "rank": 5,
-                  "name": "yuu",
-                  "power": 212633564,
-                  "role": "ギルドマスター",
+                  "name": "なまたまご",
+                  "power": 215519582,
+                  "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 },
@@ -153229,7 +153084,7 @@
                 {
                   "rank": 14,
                   "name": "ying",
-                  "power": 169014818,
+                  "power": 169020610,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153237,7 +153092,7 @@
                 {
                   "rank": 15,
                   "name": "ねーさん",
-                  "power": 154971630,
+                  "power": 156721965,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153491,7 +153346,7 @@
                 {
                   "rank": 1,
                   "name": "ハルオ",
-                  "power": 167774236,
+                  "power": 167791623,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153632,7 +153487,7 @@
                 {
                   "rank": 1,
                   "name": "omu",
-                  "power": 255375586,
+                  "power": 255573970,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153705,14 +153560,6 @@
                   "rank": 2,
                   "name": "しん",
                   "power": 146440414,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 3,
-                  "name": "徹底抗戦開始!!",
-                  "power": 138232019,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -153934,7 +153781,15 @@
                 {
                   "rank": 4,
                   "name": "陽だまりの九尾",
-                  "power": 142716096,
+                  "power": 142717426,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 5,
+                  "name": "剣聖くん",
+                  "power": 138417762,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154230,16 +154085,16 @@
                 },
                 {
                   "rank": 8,
-                  "name": "かの。",
-                  "power": 169507789,
+                  "name": "みすち",
+                  "power": 169658916,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 },
                 {
                   "rank": 9,
-                  "name": "みすち",
-                  "power": 168860295,
+                  "name": "かの。",
+                  "power": 169507789,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154306,7 +154161,7 @@
                 {
                   "rank": 2,
                   "name": "あしぇ",
-                  "power": 331998153,
+                  "power": 332016879,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154337,22 +154192,14 @@
                 },
                 {
                   "rank": 6,
-                  "name": "てんてん",
-                  "power": 190484090,
+                  "name": "イシコロ",
+                  "power": 190385826,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
                 },
                 {
                   "rank": 7,
-                  "name": "イシコロ",
-                  "power": 186008531,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 8,
                   "name": "カナタ",
                   "power": 180113365,
                   "role": "ギルド",
@@ -154360,7 +154207,7 @@
                   "party": null
                 },
                 {
-                  "rank": 9,
+                  "rank": 8,
                   "name": "ターン",
                   "power": 168607437,
                   "role": "ギルド",
@@ -154368,7 +154215,7 @@
                   "party": null
                 },
                 {
-                  "rank": 10,
+                  "rank": 9,
                   "name": "主",
                   "power": 160135045,
                   "role": "ギルド",
@@ -154434,15 +154281,7 @@
                 {
                   "rank": 7,
                   "name": "ぽ",
-                  "power": 147982114,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 8,
-                  "name": "サラン",
-                  "power": 145806260,
+                  "power": 148009015,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154474,7 +154313,7 @@
                 {
                   "rank": 3,
                   "name": "らいしん",
-                  "power": 153356528,
+                  "power": 153374209,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154515,6 +154354,14 @@
                   "rank": 1,
                   "name": "アスパラ銀Ⅲ",
                   "power": 148574220,
+                  "role": "ギルド",
+                  "status": "unknown",
+                  "party": null
+                },
+                {
+                  "rank": 2,
+                  "name": "さとりん(ラキたん)",
+                  "power": 147022456,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154770,7 +154617,7 @@
                 {
                   "rank": 9,
                   "name": "Ag+",
-                  "power": 198346604,
+                  "power": 198420817,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154834,7 +154681,7 @@
                 {
                   "rank": 1,
                   "name": "ko",
-                  "power": 215109826,
+                  "power": 215548005,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -154906,7 +154753,7 @@
                 {
                   "rank": 3,
                   "name": "あさちゃーん'w'",
-                  "power": 220776370,
+                  "power": 220875006,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -155263,14 +155110,6 @@
                 },
                 {
                   "rank": 9,
-                  "name": "ライム",
-                  "power": 160047942,
-                  "role": "ギルド",
-                  "status": "unknown",
-                  "party": null
-                },
-                {
-                  "rank": 10,
                   "name": "テン",
                   "power": 150448203,
                   "role": "ギルド",
@@ -155278,7 +155117,7 @@
                   "party": null
                 },
                 {
-                  "rank": 11,
+                  "rank": 10,
                   "name": "朝眼鏡",
                   "power": 145194286,
                   "role": "ギルド",
@@ -155360,7 +155199,7 @@
                 {
                   "rank": 1,
                   "name": "ららら",
-                  "power": 187793151,
+                  "power": 187794831,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -155448,7 +155287,7 @@
                 {
                   "rank": 5,
                   "name": "苦労身クロミ",
-                  "power": 124758891,
+                  "power": 124777373,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
@@ -155472,7 +155311,7 @@
                 {
                   "rank": 2,
                   "name": "るたお",
-                  "power": 133405893,
+                  "power": 133469244,
                   "role": "ギルド",
                   "status": "unknown",
                   "party": null
