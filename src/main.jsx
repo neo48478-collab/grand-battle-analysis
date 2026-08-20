@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Capacitor } from '@capacitor/core'
 import './styles.css'
@@ -312,35 +312,66 @@ function App() {
   const [groups, setGroups] = useState(initialGroups)
   const [dataStatus, setDataStatus] = useState(demoMode ? 'demo' : 'pending')
   const [dataUpdatedAt, setDataUpdatedAt] = useState(null)
+  const [isRefreshing, setIsRefreshing] = useState(false)
+  const loadedSnapshotRef = useRef(null)
   const [worldId, setWorldId] = useState(initialGroups[0]?.worlds?.[0]?.id ?? '')
   const [classId, setClassId] = useState(guildClasses[0].id)
   const [memberQuery, setMemberQuery] = useState('')
   const [selectedGuildId, setSelectedGuildId] = useState(initialGroups[0]?.worlds?.[0]?.guilds?.[0]?.id ?? '')
 
-  useEffect(() => {
-    let active = true
-    const bundledDataUrl = `${import.meta.env.BASE_URL}data/latest.json?ts=${Date.now()}`
-    const preferredDataUrl = Capacitor.isNativePlatform() ? `${remoteDataUrl}?ts=${Date.now()}` : bundledDataUrl
-    const loadData = (url) => fetch(url, { cache: 'no-store' }).then((response) => {
+  const refreshData = useCallback(async ({ force = false } = {}) => {
+    if (demoMode) return
+    if (force) setIsRefreshing(true)
+
+    const cacheSuffix = force ? `?ts=${Date.now()}` : ''
+    const bundledDataUrl = `${import.meta.env.BASE_URL}data/latest.json${cacheSuffix}`
+    const preferredDataUrl = Capacitor.isNativePlatform() ? `${remoteDataUrl}${cacheSuffix}` : bundledDataUrl
+    const loadData = (url) => fetch(url, { cache: force ? 'no-store' : 'no-cache' }).then((response) => {
       if (!response.ok) throw new Error(`Data request failed: ${response.status}`)
       return response.json()
     })
-    loadData(preferredDataUrl)
-      .catch(() => Capacitor.isNativePlatform() ? loadData(bundledDataUrl) : null)
-      .then((payload) => {
-        if (!active || !Array.isArray(payload?.groups) || payload.groups.length === 0) return
-        const nextGroups = payload.groups
-        const firstWorld = nextGroups[0]?.worlds?.[0]
+
+    try {
+      const payload = await loadData(preferredDataUrl)
+        .catch(() => Capacitor.isNativePlatform() ? loadData(bundledDataUrl) : null)
+      if (!Array.isArray(payload?.groups) || payload.groups.length === 0) return
+
+      const snapshotKey = payload.updatedAt ?? JSON.stringify(payload.groups.map((group) => group.id))
+      if (loadedSnapshotRef.current !== snapshotKey) {
+        const nextGroups = payload.groups.map((group) => ({
+          ...group,
+          worlds: [...group.worlds].sort((left, right) => Number(left.label.slice(1)) - Number(right.label.slice(1))),
+        }))
+        const nextWorlds = nextGroups.flatMap((group) => group.worlds)
+        const firstWorld = nextWorlds[0]
         if (!firstWorld) return
         setGroups(nextGroups)
-        setWorldId(firstWorld.id)
-        setSelectedGuildId(firstWorld.guilds?.[0]?.id ?? '')
-        setDataStatus('upstream')
-        setDataUpdatedAt(payload.updatedAt ?? null)
-      })
-      .catch(() => {})
-    return () => { active = false }
-  }, [])
+        setWorldId((current) => nextWorlds.some((world) => world.id === current) ? current : firstWorld.id)
+        setSelectedGuildId((current) => nextWorlds.some((world) => world.guilds.some((guild) => guild.id === current)) ? current : firstWorld.guilds?.[0]?.id ?? '')
+        loadedSnapshotRef.current = snapshotKey
+      }
+      setDataStatus('upstream')
+      setDataUpdatedAt(payload.updatedAt ?? null)
+    } catch {
+      // Keep the most recent valid snapshot on temporary network failures.
+    } finally {
+      if (force) setIsRefreshing(false)
+    }
+  }, [demoMode])
+
+  useEffect(() => {
+    if (demoMode) return undefined
+    refreshData()
+    const intervalId = window.setInterval(() => refreshData(), 10 * 60 * 1000)
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') refreshData()
+    }
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+    return () => {
+      window.clearInterval(intervalId)
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+    }
+  }, [demoMode, refreshData])
 
   const allWorlds = groups
     .flatMap((item) => item.worlds.map((worldItem) => ({ ...worldItem, groupLabel: item.label, groupId: item.id })))
@@ -354,7 +385,7 @@ function App() {
   const selectedGuild = classGuilds.find((guild) => guild.id === selectedGuildId) ?? classGuilds[0]
   const updatedLabel = dataUpdatedAt
     ? new Intl.DateTimeFormat('ja-JP', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(dataUpdatedAt))
-    : 'サンプル'
+    : dataStatus === 'demo' ? 'サンプル' : '取得中'
 
   const filteredMembers = useMemo(() => {
     if (!selectedGuild) return []
@@ -394,7 +425,7 @@ function App() {
             <h2>ギルド戦力</h2>
             <p className="muted">ワールドを選ぶと、紐づくグループと4つのワールドを表示します。</p>
           </div>
-          <button className="ghost-button" onClick={() => window.location.reload()}><Icon name="refresh" size={16} />リセット</button>
+          <button className="ghost-button" type="button" onClick={() => refreshData({ force: true })} disabled={isRefreshing}><Icon name="refresh" size={16} />{isRefreshing ? '更新確認中' : '最新データを確認'}</button>
         </section>
 
         <section className="selector-card" aria-label="検索条件">

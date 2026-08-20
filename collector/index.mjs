@@ -89,7 +89,7 @@ function buildFromApi({ groupsPayload, worldsPayload, worldPayloads, partyIndex 
   const validWorldIds = new Set(worldRows.map((world) => world.world_id))
   const worldById = new Map(worldRows.map((world) => [world.world_id, world]))
   const groupRows = (groupsPayload?.data ?? [])
-    .map((group) => ({ ...group, worlds: (group.worlds ?? []).filter((worldId) => validWorldIds.has(worldId)) }))
+    .map((group) => ({ ...group, worlds: (group.worlds ?? []).filter((worldId) => validWorldIds.has(worldId)).sort((a, b) => a - b) }))
     .filter((group) => group.worlds.length > 0)
     .sort((left, right) => Math.min(...left.worlds) - Math.min(...right.worlds))
   const worldDataById = new Map(worldPayloads.filter(Boolean).map((item) => [item.worldId, item]))
