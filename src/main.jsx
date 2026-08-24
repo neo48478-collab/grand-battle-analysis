@@ -4,6 +4,23 @@ import { Capacitor } from '@capacitor/core'
 import './styles.css'
 
 const remoteDataUrl = 'https://neo48478-collab.github.io/grand-battle-analysis/data/latest.json'
+const worldStorageKey = 'grand-battle:last-world-id:v1'
+
+function readSavedWorldId() {
+  try {
+    return window.localStorage.getItem(worldStorageKey) ?? ''
+  } catch {
+    return ''
+  }
+}
+
+function saveWorldId(worldId) {
+  try {
+    window.localStorage.setItem(worldStorageKey, worldId)
+  } catch {
+    // Continue without persistence when device storage is unavailable.
+  }
+}
 
 // This adapter is intentionally separate from the UI. The official upstream
 // endpoints require an authenticated game session; no credentials belong in
@@ -314,7 +331,7 @@ function App() {
   const [dataUpdatedAt, setDataUpdatedAt] = useState(null)
   const [isRefreshing, setIsRefreshing] = useState(false)
   const loadedSnapshotRef = useRef(null)
-  const [worldId, setWorldId] = useState(initialGroups[0]?.worlds?.[0]?.id ?? '')
+  const [worldId, setWorldId] = useState(() => demoMode ? initialGroups[0]?.worlds?.[0]?.id ?? '' : readSavedWorldId())
   const [classId, setClassId] = useState(guildClasses[0].id)
   const [memberQuery, setMemberQuery] = useState('')
   const [selectedGuildId, setSelectedGuildId] = useState(initialGroups[0]?.worlds?.[0]?.guilds?.[0]?.id ?? '')
@@ -346,7 +363,11 @@ function App() {
         const firstWorld = nextWorlds[0]
         if (!firstWorld) return
         setGroups(nextGroups)
-        setWorldId((current) => nextWorlds.some((world) => world.id === current) ? current : firstWorld.id)
+        setWorldId((current) => {
+          const nextWorldId = nextWorlds.some((world) => world.id === current) ? current : firstWorld.id
+          saveWorldId(nextWorldId)
+          return nextWorldId
+        })
         setSelectedGuildId((current) => nextWorlds.some((world) => world.guilds.some((guild) => guild.id === current)) ? current : firstWorld.guilds?.[0]?.id ?? '')
         loadedSnapshotRef.current = snapshotKey
       }
@@ -398,6 +419,7 @@ function App() {
     const nextWorld = allWorlds.find((item) => item.id === nextWorldId) ?? allWorlds[0]
     if (!nextWorld) return
     setWorldId(nextWorld.id)
+    if (!demoMode) saveWorldId(nextWorld.id)
     setClassId(guildClasses[0].id)
     setSelectedGuildId(nextWorld.guilds[0]?.id ?? '')
     setMemberQuery('')
